@@ -1,0 +1,66 @@
+(footprint "HP_TP30"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "aefdeddb-ddf7-4f23-91e5-88b181a9a5d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "HP_TP30"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7c50d7c-a698-4833-8d0d-bbe66d008c98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1fbca34c-c746-4782-9a52-e2a6b89bd31b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ba9779e-4564-473b-a6a9-4bfa42bb935f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 0.762 0.762)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "695113a1-442f-47f0-a588-8f9ce1c64f41")
+	)
+	(embedded_fonts no)
+)
