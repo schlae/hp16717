@@ -2900,16 +2900,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "U21 pin K26"
-		(exclude_from_sim no)
-		(at 548.132 54.356 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "788b5e87-3c07-4f6f-8a57-b88c3c15b47e")
-	)
 	(text "POD 3"
 		(exclude_from_sim no)
 		(at 114.808 29.464 0)
@@ -6426,16 +6416,6 @@
 	)
 	(wire
 		(pts
-			(xy 476.25 172.72) (xy 476.25 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a798465-343b-4be1-b04e-8a99a0ba0e8b")
-	)
-	(wire
-		(pts
 			(xy 502.92 149.86) (xy 506.73 149.86)
 		)
 		(stroke
@@ -6903,16 +6883,6 @@
 			(type default)
 		)
 		(uuid "597c8dbe-4794-42e4-aca0-2bfb108683ea")
-	)
-	(wire
-		(pts
-			(xy 472.44 176.53) (xy 472.44 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "598a5c43-b9ff-4d3a-b065-e48a936f9b64")
 	)
 	(wire
 		(pts
@@ -7903,16 +7873,6 @@
 			(type default)
 		)
 		(uuid "7d92f6fc-a096-4efd-b722-9a523a1f09e9")
-	)
-	(wire
-		(pts
-			(xy 472.44 172.72) (xy 476.25 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e07cb51-2e68-4470-abce-beb061cbcd13")
 	)
 	(wire
 		(pts
@@ -11016,16 +10976,6 @@
 	)
 	(wire
 		(pts
-			(xy 476.25 184.15) (xy 476.25 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e635876a-9952-4cc4-8587-6b104e81eb92")
-	)
-	(wire
-		(pts
 			(xy 172.72 52.07) (xy 172.72 53.34)
 		)
 		(stroke
@@ -12461,7 +12411,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 138.43 123.1962 0)
 			(effects
 				(font
@@ -12601,7 +12551,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 458.47 153.6762 0)
 			(effects
 				(font
@@ -12737,7 +12687,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 470.154 153.924 0)
 			(effects
 				(font
@@ -14221,7 +14171,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 217.17 41.9162 0)
 			(effects
 				(font
@@ -15244,7 +15194,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 453.39 46.9962 0)
 			(effects
 				(font
@@ -16134,7 +16084,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 491.49 46.9962 0)
 			(effects
 				(font
@@ -16411,7 +16361,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 201.93 41.9162 0)
 			(effects
 				(font
@@ -16481,7 +16431,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 411.48 138.4362 0)
 			(effects
 				(font
@@ -16703,74 +16653,6 @@
 			(project "hp16717"
 				(path "/173036db-20dd-4729-b214-c668df2e6caa/0626cbb8-19d6-4076-966a-8b99b5ddee68"
 					(reference "#PWR0498")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 472.44 176.53 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e80a916-21c7-4a49-a86e-380e8bc730c4")
-		(property "Reference" "#PWR0550"
-			(at 472.44 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 472.44 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 472.44 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 472.44 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 472.44 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c9dec9e1-f972-42aa-8c5c-771a554e11ed")
-		)
-		(instances
-			(project "hp16717"
-				(path "/173036db-20dd-4729-b214-c668df2e6caa/0626cbb8-19d6-4076-966a-8b99b5ddee68"
-					(reference "#PWR0550")
 					(unit 1)
 				)
 			)
@@ -18035,7 +17917,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 153.67 41.9162 0)
 			(effects
 				(font
@@ -19269,7 +19151,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 163.83 41.9162 0)
 			(effects
 				(font
@@ -20564,7 +20446,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "0.047uF"
 			(at 207.264 162.814 0)
 			(effects
 				(font
@@ -21286,7 +21168,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "0.047uF"
 			(at 197.104 162.814 0)
 			(effects
 				(font
@@ -22340,7 +22222,7 @@
 				)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 72.3963 252.73 90)
 			(effects
 				(font
@@ -22477,7 +22359,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 499.11 46.9962 0)
 			(effects
 				(font
@@ -22548,7 +22430,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 448.31 153.6762 0)
 			(effects
 				(font
@@ -23373,7 +23255,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 194.564 138.684 0)
 			(effects
 				(font
@@ -24258,7 +24140,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 204.216 138.176 0)
 			(effects
 				(font
@@ -25479,7 +25361,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 182.88 138.4362 0)
 			(effects
 				(font
@@ -26713,7 +26595,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 507.746 47.244 0)
 			(effects
 				(font
@@ -26921,7 +26803,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 172.72 138.4362 0)
 			(effects
 				(font
@@ -28026,72 +27908,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-5V")
-		(at 476.25 186.69 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d439abaa-3ce1-45bf-a449-2e49095ef743")
-		(property "Reference" "#PWR0551"
-			(at 476.25 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-5V2"
-			(at 476.25 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 476.25 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 476.25 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 476.25 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "85b88714-0651-49c7-bec7-c6965f5ee82b")
-		)
-		(instances
-			(project "hp16717"
-				(path "/173036db-20dd-4729-b214-c668df2e6caa/0626cbb8-19d6-4076-966a-8b99b5ddee68"
-					(reference "#PWR0551")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 69.85 190.5 90)
 		(unit 1)
@@ -28519,7 +28335,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 483.87 46.9962 0)
 			(effects
 				(font
@@ -28656,7 +28472,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 479.806 153.416 0)
 			(effects
 				(font
@@ -29319,7 +29135,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 209.55 41.9162 0)
 			(effects
 				(font
@@ -29390,7 +29206,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 194.31 41.9162 0)
 			(effects
 				(font
@@ -29950,7 +29766,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 476.25 46.9962 0)
 			(effects
 				(font
@@ -30568,7 +30384,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 444.5 46.9962 0)
 			(effects
 				(font

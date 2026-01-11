@@ -13105,7 +13105,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 483.87 41.9162 0)
 			(effects
 				(font
@@ -13370,7 +13370,7 @@
 				)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 88.8937 265.43 90)
 			(effects
 				(font
@@ -14114,7 +14114,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 212.09 50.8062 0)
 			(effects
 				(font
@@ -14184,7 +14184,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 406.4 132.0862 0)
 			(effects
 				(font
@@ -14455,7 +14455,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "2.2pF"
 			(at 122.682 259.08 0)
 			(effects
 				(font
@@ -15319,7 +15319,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 127 132.0862 0)
 			(effects
 				(font
@@ -16134,7 +16134,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 179.07 148.5962 0)
 			(effects
 				(font
@@ -16415,7 +16415,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 168.91 148.5962 0)
 			(effects
 				(font
@@ -17230,7 +17230,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 200.406 148.336 0)
 			(effects
 				(font
@@ -17776,7 +17776,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 468.376 148.336 0)
 			(effects
 				(font
@@ -19478,7 +19478,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 499.11 41.9162 0)
 			(effects
 				(font
@@ -20430,7 +20430,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 447.04 148.5962 0)
 			(effects
 				(font
@@ -20748,7 +20748,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 227.33 50.8062 0)
 			(effects
 				(font
@@ -21819,7 +21819,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 458.724 148.844 0)
 			(effects
 				(font
@@ -22502,7 +22502,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 165.1 50.8062 0)
 			(effects
 				(font
@@ -22768,7 +22768,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 491.49 41.9162 0)
 			(effects
 				(font
@@ -22839,7 +22839,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 436.88 41.9162 0)
 			(effects
 				(font
@@ -23044,7 +23044,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 219.71 50.8062 0)
 			(effects
 				(font
@@ -26507,7 +26507,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 436.88 148.5962 0)
 			(effects
 				(font
@@ -27357,7 +27357,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "2.2pF"
 			(at 122.428 286.512 0)
 			(effects
 				(font
@@ -27768,7 +27768,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 204.47 50.8062 0)
 			(effects
 				(font
@@ -27838,7 +27838,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 190.754 148.844 0)
 			(effects
 				(font
@@ -28154,7 +28154,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 445.77 41.9162 0)
 			(effects
 				(font
@@ -28223,7 +28223,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "0.047uF"
 			(at 467.106 179.324 0)
 			(effects
 				(font
@@ -29050,7 +29050,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "hp16717:HP_0603"
 			(at 92.71 77.47 0)
 			(effects
 				(font
@@ -29112,7 +29112,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 173.99 50.8062 0)
 			(effects
 				(font
@@ -29249,7 +29249,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330pF"
+		(property "Value" "360pF"
 			(at 476.25 41.9162 0)
 			(effects
 				(font

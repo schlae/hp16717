@@ -1,4 +1,4 @@
-25702150467229244
+25707452019020588
 Active
 ADAFRUIT_4383
 
@@ -103368,6 +103368,27 @@ D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404
 0
 10
 5
+hp16717
+HP_TP30
+
+
+0
+1
+1
+hp16717
+HP_TP50
+
+
+0
+1
+1
+hp16717
+HP_TP55
+
+
+0
+1
+1
 hp16717
 HP_TQFP-100_14x14mm_P0.5mm
 TQFP, 100 Pin (http://www.microsemi.com/index.php?option=com_docman&task=doc_download&gid=131095), generated with kicad-footprint-generator ipc_gullwing_generator.py

@@ -22583,7 +22583,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "3.3nF"
 			(at 524.51 267.9762 0)
 			(effects
 				(font
@@ -23360,7 +23360,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "3.3nF"
 			(at 549.91 267.9762 0)
 			(effects
 				(font
@@ -23497,7 +23497,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "3.3nF"
 			(at 542.29 267.9762 0)
 			(effects
 				(font
@@ -24396,7 +24396,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "0.047uF"
 			(at 191.77 246.3862 0)
 			(effects
 				(font
@@ -24759,7 +24759,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "0.047uF"
 			(at 173.99 246.3862 0)
 			(effects
 				(font
@@ -25033,7 +25033,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "3.3nF"
 			(at 408.94 76.2062 0)
 			(effects
 				(font
@@ -26256,7 +26256,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "0.047uF"
 			(at 163.83 246.3862 0)
 			(effects
 				(font
@@ -26326,7 +26326,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "3.3nF"
 			(at 203.2 99.0662 0)
 			(effects
 				(font
@@ -26463,7 +26463,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "3.3nF"
 			(at 383.54 76.2062 0)
 			(effects
 				(font
@@ -27312,7 +27312,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "360pF"
 			(at 209.55 223.5262 0)
 			(effects
 				(font
@@ -27382,7 +27382,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "3.3nF"
 			(at 401.32 76.2062 0)
 			(effects
 				(font
@@ -30023,7 +30023,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "3.3nF"
 			(at 392.43 76.2062 0)
 			(effects
 				(font
@@ -30914,7 +30914,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "0.047uF"
 			(at 182.88 246.3862 0)
 			(effects
 				(font
@@ -31993,7 +31993,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "3.3nF"
 			(at 219.71 287.0262 0)
 			(effects
 				(font
@@ -33791,7 +33791,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "3.3nF"
 			(at 533.4 267.9762 0)
 			(effects
 				(font

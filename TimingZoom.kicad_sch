@@ -29106,7 +29106,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 517.144 27.432 90)
 			(effects
 				(font
@@ -29173,7 +29173,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "100pF"
 			(at 78.232 28.702 0)
 			(effects
 				(font
@@ -29240,7 +29240,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 573.024 73.152 90)
 			(effects
 				(font
@@ -29441,7 +29441,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "390pF"
 			(at 47.752 209.042 0)
 			(effects
 				(font
@@ -29575,7 +29575,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 573.024 31.242 90)
 			(effects
 				(font
@@ -29642,7 +29642,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "100pF"
 			(at 74.422 209.042 0)
 			(effects
 				(font
@@ -29709,7 +29709,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "100pF"
 			(at 78.232 115.062 0)
 			(effects
 				(font
@@ -29843,7 +29843,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 463.804 61.722 90)
 			(effects
 				(font
@@ -29910,7 +29910,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "100pF"
 			(at 54.102 28.702 0)
 			(effects
 				(font
@@ -29977,7 +29977,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 463.804 50.292 90)
 			(effects
 				(font
@@ -30044,7 +30044,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "100pF"
 			(at 64.262 209.042 0)
 			(effects
 				(font
@@ -30111,7 +30111,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "100pF"
 			(at 56.642 209.042 0)
 			(effects
 				(font
@@ -30178,7 +30178,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 517.144 50.292 90)
 			(effects
 				(font
@@ -30245,7 +30245,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 517.144 73.152 90)
 			(effects
 				(font
@@ -30312,7 +30312,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "100pF"
 			(at 62.992 115.062 0)
 			(effects
 				(font
@@ -30483,7 +30483,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 357.124 57.912 90)
 			(effects
 				(font
@@ -30550,7 +30550,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 463.804 31.242 90)
 			(effects
 				(font
@@ -30617,7 +30617,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 357.124 31.242 90)
 			(effects
 				(font
@@ -30684,7 +30684,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "100pF"
 			(at 45.212 28.702 0)
 			(effects
 				(font
@@ -30885,7 +30885,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 463.804 73.152 90)
 			(effects
 				(font
@@ -32380,7 +32380,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 573.024 35.052 90)
 			(effects
 				(font
@@ -32447,7 +32447,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "100pF"
 			(at 90.932 209.042 0)
 			(effects
 				(font
@@ -32514,7 +32514,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 410.464 46.482 90)
 			(effects
 				(font
@@ -32581,7 +32581,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 357.124 54.102 90)
 			(effects
 				(font
@@ -32715,7 +32715,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 463.804 35.052 90)
 			(effects
 				(font
@@ -32868,7 +32868,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 410.464 27.432 90)
 			(effects
 				(font
@@ -32935,7 +32935,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "390pF"
 			(at 46.482 115.062 0)
 			(effects
 				(font
@@ -33563,7 +33563,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "100pF"
 			(at 64.262 304.292 0)
 			(effects
 				(font
@@ -33764,7 +33764,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 517.144 31.242 90)
 			(effects
 				(font
@@ -33831,7 +33831,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 517.144 46.482 90)
 			(effects
 				(font
@@ -33898,7 +33898,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 410.464 35.052 90)
 			(effects
 				(font
@@ -33965,7 +33965,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "100pF"
 			(at 37.592 115.062 0)
 			(effects
 				(font
@@ -34032,7 +34032,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 463.804 57.912 90)
 			(effects
 				(font
@@ -34099,7 +34099,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 357.124 69.342 90)
 			(effects
 				(font
@@ -34166,7 +34166,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 517.144 54.102 90)
 			(effects
 				(font
@@ -34366,7 +34366,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 573.024 38.862 90)
 			(effects
 				(font
@@ -34544,7 +34544,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "100pF"
 			(at 38.862 209.042 0)
 			(effects
 				(font
@@ -35239,7 +35239,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 573.024 57.912 90)
 			(effects
 				(font
@@ -35373,7 +35373,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 463.804 42.672 90)
 			(effects
 				(font
@@ -35678,7 +35678,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 463.804 38.862 90)
 			(effects
 				(font
@@ -35745,7 +35745,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 517.144 61.722 90)
 			(effects
 				(font
@@ -35878,7 +35878,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 573.024 46.482 90)
 			(effects
 				(font
@@ -35945,7 +35945,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "100pF"
 			(at 73.152 304.292 0)
 			(effects
 				(font
@@ -36146,7 +36146,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 357.124 27.432 90)
 			(effects
 				(font
@@ -36213,7 +36213,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "360pF"
 			(at 573.024 78.232 90)
 			(effects
 				(font
@@ -36518,7 +36518,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 573.024 27.432 90)
 			(effects
 				(font
@@ -36776,7 +36776,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "100pF"
 			(at 55.372 115.062 0)
 			(effects
 				(font
@@ -36843,7 +36843,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "100pF"
 			(at 56.642 304.292 0)
 			(effects
 				(font
@@ -36910,7 +36910,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "360pF"
 			(at 573.024 65.532 90)
 			(effects
 				(font
@@ -36977,7 +36977,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 517.144 35.052 90)
 			(effects
 				(font
@@ -37044,7 +37044,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "100pF"
 			(at 47.752 304.292 0)
 			(effects
 				(font
@@ -37111,7 +37111,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 463.804 54.102 90)
 			(effects
 				(font
@@ -37178,7 +37178,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 410.464 73.152 90)
 			(effects
 				(font
@@ -37312,7 +37312,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 357.124 42.672 90)
 			(effects
 				(font
@@ -37446,7 +37446,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "360pF"
 			(at 517.144 65.532 90)
 			(effects
 				(font
@@ -38111,7 +38111,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 463.804 27.432 90)
 			(effects
 				(font
@@ -38245,7 +38245,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "100pF"
 			(at 70.612 28.702 0)
 			(effects
 				(font
@@ -38312,7 +38312,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 357.124 73.152 90)
 			(effects
 				(font
@@ -38379,7 +38379,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "100pF"
 			(at 62.992 28.702 0)
 			(effects
 				(font
@@ -38446,7 +38446,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "360pF"
 			(at 463.804 69.342 90)
 			(effects
 				(font
@@ -38647,7 +38647,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 357.124 65.532 90)
 			(effects
 				(font
@@ -38915,7 +38915,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "360pF"
 			(at 573.024 69.342 90)
 			(effects
 				(font
@@ -39260,7 +39260,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "100pF"
 			(at 38.862 304.292 0)
 			(effects
 				(font
@@ -39327,7 +39327,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 573.024 61.722 90)
 			(effects
 				(font
@@ -39614,7 +39614,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 573.024 42.672 90)
 			(effects
 				(font
@@ -40328,7 +40328,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 517.144 42.672 90)
 			(effects
 				(font
@@ -40395,7 +40395,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "100pF"
 			(at 36.322 28.702 0)
 			(effects
 				(font
@@ -40956,7 +40956,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 357.124 38.862 90)
 			(effects
 				(font
@@ -41129,7 +41129,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 517.144 57.912 90)
 			(effects
 				(font
@@ -41690,7 +41690,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 410.464 61.722 90)
 			(effects
 				(font
@@ -41757,7 +41757,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "360pF"
 			(at 410.464 69.342 90)
 			(effects
 				(font
@@ -42452,7 +42452,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "100pF"
 			(at 83.312 209.042 0)
 			(effects
 				(font
@@ -42787,7 +42787,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 410.464 57.912 90)
 			(effects
 				(font
@@ -42854,7 +42854,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 410.464 38.862 90)
 			(effects
 				(font
@@ -42921,7 +42921,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 410.464 31.242 90)
 			(effects
 				(font
@@ -43055,7 +43055,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "100pF"
 			(at 70.612 115.062 0)
 			(effects
 				(font
@@ -43256,7 +43256,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 410.464 50.292 90)
 			(effects
 				(font
@@ -43323,7 +43323,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 573.024 50.292 90)
 			(effects
 				(font
@@ -43390,7 +43390,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "360pF"
 			(at 410.464 65.532 90)
 			(effects
 				(font
@@ -43457,7 +43457,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 463.804 46.482 90)
 			(effects
 				(font
@@ -43696,7 +43696,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "360pF"
 			(at 463.804 65.532 90)
 			(effects
 				(font
@@ -43763,7 +43763,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 410.464 42.672 90)
 			(effects
 				(font
@@ -44221,7 +44221,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 573.024 54.102 90)
 			(effects
 				(font
@@ -44782,7 +44782,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 357.124 50.292 90)
 			(effects
 				(font
@@ -44916,7 +44916,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "360pF"
 			(at 517.144 69.342 90)
 			(effects
 				(font
@@ -45136,7 +45136,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 410.464 54.102 90)
 			(effects
 				(font
@@ -45270,7 +45270,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "360pF"
 			(at 357.124 46.482 90)
 			(effects
 				(font
@@ -45337,7 +45337,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 357.124 61.722 90)
 			(effects
 				(font
@@ -45404,7 +45404,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "390pF"
 			(at 89.662 304.292 0)
 			(effects
 				(font
@@ -45471,7 +45471,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "360pF"
 			(at 357.124 35.052 90)
 			(effects
 				(font
@@ -45605,7 +45605,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "1nF"
 			(at 517.144 38.862 90)
 			(effects
 				(font
@@ -45672,7 +45672,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "100pF"
 			(at 82.042 304.292 0)
 			(effects
 				(font
