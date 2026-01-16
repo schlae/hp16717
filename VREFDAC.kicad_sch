@@ -3760,7 +3760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "hp16717:HP_SO-8_3.9x4.9mm_P1.27mm"
 			(at 217.17 46.99 0)
 			(effects
 				(font
@@ -4387,7 +4387,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:Microchip_PQFP-44_10x10mm_P0.8mm"
+		(property "Footprint" "hp16717:HP_LQFP-44_10x10mm_P0.8mm"
 			(at 127 60.96 0)
 			(effects
 				(font
@@ -4715,7 +4715,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "hp16717:HP_SO-8_3.9x4.9mm_P1.27mm"
 			(at 214.63 132.08 0)
 			(effects
 				(font

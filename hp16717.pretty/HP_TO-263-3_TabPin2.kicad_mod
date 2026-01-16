@@ -12,7 +12,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.127)
 			)
 		)
 	)
@@ -52,6 +52,17 @@
 		)
 	)
 	(attr smd)
+	(fp_circle
+		(center -8.509 -4.826)
+		(end -7.924 -4.826)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "b9d45e92-b616-4f00-96cb-f763fea18910")
+	)
 	(fp_rect
 		(start -10.16 -6.096)
 		(end 7.62 6.096)
@@ -236,25 +247,25 @@
 	)
 	(pad "1" smd rect
 		(at -7.65 -2.54)
-		(size 3.175 2.032)
+		(size 3.048 1.778)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "03a5ecd3-3007-41f3-9b20-eb5e2473db64")
 	)
 	(pad "2" smd rect
 		(at -7.65 0)
-		(size 3.175 2.032)
+		(size 3.048 1.778)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d66c08b3-a3d5-44e8-aa7e-3f7873fecaec")
 	)
 	(pad "2" smd rect
 		(at 0.381 0)
-		(size 11.557 11.684)
+		(size 11.557 11.6205)
 		(layers "F.Cu" "F.Mask")
 		(uuid "3fb58aca-4710-42cd-894c-a2fb22c8b0dd")
 	)
 	(pad "3" smd rect
 		(at -7.65 2.54)
-		(size 3.175 2.032)
+		(size 3.048 1.778)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ca1b45c1-fa86-438d-9628-550d15e84618")
 	)

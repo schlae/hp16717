@@ -11578,7 +11578,7 @@
 		)
 		(uuid "0ceb4ef8-daf3-4900-8860-2ef37a70ddbf")
 	)
-	(label "~{TZP2_CLK}"
+	(label "TZP2_CLK_N"
 		(at 541.02 139.7 180)
 		(effects
 			(font
@@ -11608,7 +11608,7 @@
 		)
 		(uuid "11fb50d9-2f75-493b-8d0d-2d7ac957cb85")
 	)
-	(label "~{AP2_CLK}"
+	(label "AP2_CLK_N"
 		(at 541.02 134.62 180)
 		(effects
 			(font
@@ -11638,7 +11638,7 @@
 		)
 		(uuid "2a41011e-881a-45fb-8ab7-58652aeaebf5")
 	)
-	(label "TZP2_CLK"
+	(label "TZP2_CLK_P"
 		(at 541.02 127 180)
 		(effects
 			(font
@@ -11658,7 +11658,7 @@
 		)
 		(uuid "3cef7434-cb56-4e42-8778-f76d128403a2")
 	)
-	(label "AP2_CLK"
+	(label "AP2_CLK_P"
 		(at 541.02 121.92 180)
 		(effects
 			(font
@@ -12175,7 +12175,7 @@
 		)
 		(uuid "83ef3cba-f2be-418b-8064-c24b86029701")
 	)
-	(hierarchical_label "~{TZP2_CLK}"
+	(hierarchical_label "TZP2_CLK_N"
 		(shape output)
 		(at 554.99 139.7 0)
 		(effects
@@ -12197,7 +12197,7 @@
 		)
 		(uuid "8da47845-467f-4146-8b44-305b65e10330")
 	)
-	(hierarchical_label "~{AP2_CLK}"
+	(hierarchical_label "AP2_CLK_N"
 		(shape output)
 		(at 554.99 134.62 0)
 		(effects
@@ -12208,7 +12208,7 @@
 		)
 		(uuid "a52f152c-733e-4d7e-a6b6-3cf54274ccf1")
 	)
-	(hierarchical_label "AP2_CLK"
+	(hierarchical_label "AP2_CLK_P"
 		(shape output)
 		(at 554.99 121.92 0)
 		(effects
@@ -12274,7 +12274,7 @@
 		)
 		(uuid "e74aa344-3e42-4cdf-b534-c19673cb8f59")
 	)
-	(hierarchical_label "TZP2_CLK"
+	(hierarchical_label "TZP2_CLK_P"
 		(shape output)
 		(at 554.99 127 0)
 		(effects

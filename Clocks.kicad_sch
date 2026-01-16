@@ -7360,6 +7360,12 @@
 		(uuid "a983c0e0-7311-4403-8c9c-06f58ad156ae")
 	)
 	(junction
+		(at 345.44 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9fe0b44-72d5-4499-85a6-d1b63c2e299c")
+	)
+	(junction
 		(at 322.58 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7940,6 +7946,16 @@
 			(type default)
 		)
 		(uuid "04f25c4c-c398-43da-b59b-e02703a18c72")
+	)
+	(wire
+		(pts
+			(xy 345.44 41.91) (xy 345.44 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "059c5663-cd21-4639-93c1-9876c069c994")
 	)
 	(wire
 		(pts
@@ -9373,7 +9389,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 38.1) (xy 345.44 44.45)
+			(xy 345.44 38.1) (xy 345.44 41.91)
 		)
 		(stroke
 			(width 0)
@@ -9450,6 +9466,16 @@
 			(type default)
 		)
 		(uuid "42ded62b-7de9-4854-8bc4-324e597dfbd1")
+	)
+	(wire
+		(pts
+			(xy 351.79 44.45) (xy 351.79 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "430a38a6-ae09-4540-b76c-b9c2e28d1a9c")
 	)
 	(wire
 		(pts
@@ -11953,6 +11979,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 41.91) (xy 345.44 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a281ebee-351b-4e4e-9f89-06a27ff7e5bf")
+	)
+	(wire
+		(pts
 			(xy 448.31 168.91) (xy 448.31 175.26)
 		)
 		(stroke
@@ -13901,7 +13937,7 @@
 		)
 		(uuid "e7cbb22f-1a32-4bdf-9d21-ccb3afb48808")
 	)
-	(hierarchical_label "~{TZCLKI}"
+	(hierarchical_label "TZCLKI_N"
 		(shape input)
 		(at 382.27 172.72 180)
 		(effects
@@ -13912,7 +13948,7 @@
 		)
 		(uuid "0f411f8b-7297-477e-bf39-245acd5fa9bd")
 	)
-	(hierarchical_label "~{TZCLKO9}"
+	(hierarchical_label "TZCLKO9_N"
 		(shape output)
 		(at 500.38 207.01 0)
 		(effects
@@ -13923,7 +13959,7 @@
 		)
 		(uuid "19b7e8bb-093e-4592-92ca-0501c626d5e9")
 	)
-	(hierarchical_label "TZCLKO1"
+	(hierarchical_label "TZCLKO1_P"
 		(shape output)
 		(at 500.38 142.24 0)
 		(effects
@@ -13934,7 +13970,7 @@
 		)
 		(uuid "1f67ed3a-8e52-4136-b144-3a2036fe0ddd")
 	)
-	(hierarchical_label "100M_SYSCLK2"
+	(hierarchical_label "100M_SYSCLK2_P"
 		(shape bidirectional)
 		(at 53.34 43.18 180)
 		(effects
@@ -13967,7 +14003,7 @@
 		)
 		(uuid "2b450c15-f8ff-412c-bfe8-830f9d6ed43c")
 	)
-	(hierarchical_label "~{TZCLKO1}"
+	(hierarchical_label "TZCLKO1_N"
 		(shape output)
 		(at 500.38 144.78 0)
 		(effects
@@ -13978,7 +14014,7 @@
 		)
 		(uuid "2c8d53d2-e277-444b-9c26-dbef2ccaf7d1")
 	)
-	(hierarchical_label "TZCLK3"
+	(hierarchical_label "TZCLK3_P"
 		(shape output)
 		(at 311.15 167.64 0)
 		(effects
@@ -13989,7 +14025,7 @@
 		)
 		(uuid "31ebd92d-098d-4567-9222-e63a2e4fa176")
 	)
-	(hierarchical_label "~{TZCLKO2}"
+	(hierarchical_label "TZCLKO2_N"
 		(shape output)
 		(at 500.38 149.86 0)
 		(effects
@@ -14000,7 +14036,7 @@
 		)
 		(uuid "332881ff-c1e2-4a0a-94f1-aac934fbfc00")
 	)
-	(hierarchical_label "~{TZCLKO10}"
+	(hierarchical_label "TZCLKO10_N"
 		(shape output)
 		(at 500.38 201.93 0)
 		(effects
@@ -14022,7 +14058,7 @@
 		)
 		(uuid "39481bfc-5e51-48a4-9ae0-2cac11fa6ffe")
 	)
-	(hierarchical_label "TZCLKO5"
+	(hierarchical_label "TZCLKO5_P"
 		(shape output)
 		(at 500.38 172.72 0)
 		(effects
@@ -14055,7 +14091,7 @@
 		)
 		(uuid "44474374-afa0-4df4-8662-1a181aee5765")
 	)
-	(hierarchical_label "~{TZCLK2}"
+	(hierarchical_label "TZCLK2_N"
 		(shape output)
 		(at 311.15 160.02 0)
 		(effects
@@ -14066,7 +14102,7 @@
 		)
 		(uuid "46bcb652-e141-4b38-9301-d02befb2677e")
 	)
-	(hierarchical_label "~{TZCLKO5}"
+	(hierarchical_label "TZCLKO5_N"
 		(shape output)
 		(at 500.38 175.26 0)
 		(effects
@@ -14099,7 +14135,7 @@
 		)
 		(uuid "585304af-2311-434a-83e0-6c08070fc652")
 	)
-	(hierarchical_label "~{TZCLKO4}"
+	(hierarchical_label "TZCLKO4_N"
 		(shape output)
 		(at 500.38 165.1 0)
 		(effects
@@ -14110,7 +14146,7 @@
 		)
 		(uuid "596db006-2afd-4d7d-9fed-2ea8de004959")
 	)
-	(hierarchical_label "~{TZCLKO6}"
+	(hierarchical_label "TZCLKO6_N"
 		(shape output)
 		(at 500.38 180.34 0)
 		(effects
@@ -14143,7 +14179,7 @@
 		)
 		(uuid "73a4450e-6fa6-4f82-90fb-6650210bc3dc")
 	)
-	(hierarchical_label "TZCLK4"
+	(hierarchical_label "TZCLK4_P"
 		(shape output)
 		(at 311.15 172.72 0)
 		(effects
@@ -14154,7 +14190,7 @@
 		)
 		(uuid "7726e0a7-cb86-4fc0-935f-e6400bbed67b")
 	)
-	(hierarchical_label "~{TZCLKO7}"
+	(hierarchical_label "TZCLKO7_N"
 		(shape output)
 		(at 500.38 190.5 0)
 		(effects
@@ -14176,7 +14212,7 @@
 		)
 		(uuid "821021ec-37a9-4c56-9708-1cb4e3441b50")
 	)
-	(hierarchical_label "~{100M_SYSCLK2}"
+	(hierarchical_label "100M_SYSCLK2_N"
 		(shape bidirectional)
 		(at 53.34 45.72 180)
 		(effects
@@ -14187,7 +14223,7 @@
 		)
 		(uuid "8510a921-2fda-4651-ae22-c634c6780865")
 	)
-	(hierarchical_label "TZCLK2"
+	(hierarchical_label "TZCLK2_P"
 		(shape output)
 		(at 311.15 157.48 0)
 		(effects
@@ -14198,7 +14234,7 @@
 		)
 		(uuid "893afe02-a410-4226-a4a6-5511f386e39c")
 	)
-	(hierarchical_label "~{TZCLKO3}"
+	(hierarchical_label "TZCLKO3_N"
 		(shape output)
 		(at 500.38 160.02 0)
 		(effects
@@ -14209,7 +14245,7 @@
 		)
 		(uuid "8e9b19bf-4786-4634-861d-ee4e2f772f7a")
 	)
-	(hierarchical_label "TZCLK1"
+	(hierarchical_label "TZCLK1_P"
 		(shape output)
 		(at 311.15 152.4 0)
 		(effects
@@ -14220,7 +14256,7 @@
 		)
 		(uuid "917dd8df-5e48-45e3-bffd-1a96b81391db")
 	)
-	(hierarchical_label "~{TZCLKO8}"
+	(hierarchical_label "TZCLKO8_N"
 		(shape output)
 		(at 500.38 195.58 0)
 		(effects
@@ -14231,7 +14267,7 @@
 		)
 		(uuid "94c5bdc7-e420-493c-81a3-881df260936f")
 	)
-	(hierarchical_label "~{TZCLK1}"
+	(hierarchical_label "TZCLK1_N"
 		(shape output)
 		(at 311.15 154.94 0)
 		(effects
@@ -14242,7 +14278,7 @@
 		)
 		(uuid "9b921035-a3bc-400f-9efe-32617f9c65d8")
 	)
-	(hierarchical_label "TZCLKO8"
+	(hierarchical_label "TZCLKO8_P"
 		(shape output)
 		(at 500.38 193.04 0)
 		(effects
@@ -14264,7 +14300,7 @@
 		)
 		(uuid "a52e6a61-0be1-422f-8b6d-935c61f1d8a2")
 	)
-	(hierarchical_label "TZCLKO6"
+	(hierarchical_label "TZCLKO6_P"
 		(shape output)
 		(at 500.38 177.8 0)
 		(effects
@@ -14286,7 +14322,7 @@
 		)
 		(uuid "acfd6baa-848a-4783-9324-db8b5240d947")
 	)
-	(hierarchical_label "~{TZCLK4}"
+	(hierarchical_label "TZCLK4_N"
 		(shape output)
 		(at 311.15 175.26 0)
 		(effects
@@ -14297,7 +14333,7 @@
 		)
 		(uuid "b18c468e-8c2a-4f78-93c9-a40cdf40bc40")
 	)
-	(hierarchical_label "TZCLKI"
+	(hierarchical_label "TZCLKI_P"
 		(shape input)
 		(at 382.27 167.64 180)
 		(effects
@@ -14308,7 +14344,7 @@
 		)
 		(uuid "b1e37af2-5b16-47ac-949b-518f4f4140cc")
 	)
-	(hierarchical_label "TZCLKO3"
+	(hierarchical_label "TZCLKO3_P"
 		(shape output)
 		(at 500.38 157.48 0)
 		(effects
@@ -14319,7 +14355,7 @@
 		)
 		(uuid "b6395c0f-da0b-4d7f-9d47-c30af56f954c")
 	)
-	(hierarchical_label "TZCLKO9"
+	(hierarchical_label "TZCLKO9_P"
 		(shape output)
 		(at 500.38 209.55 0)
 		(effects
@@ -14330,7 +14366,7 @@
 		)
 		(uuid "b98ee385-44fe-49cd-b601-6272e403dfb9")
 	)
-	(hierarchical_label "TZCLK5"
+	(hierarchical_label "TZCLK5_P"
 		(shape output)
 		(at 311.15 182.88 0)
 		(effects
@@ -14341,7 +14377,7 @@
 		)
 		(uuid "bb3bbf43-43cf-45cb-944c-14c25a70e3b2")
 	)
-	(hierarchical_label "~{TZCLK5}"
+	(hierarchical_label "TZCLK5_N"
 		(shape output)
 		(at 311.15 185.42 0)
 		(effects
@@ -14363,7 +14399,7 @@
 		)
 		(uuid "cafb8b05-d6ba-4f6c-a896-173638b67d10")
 	)
-	(hierarchical_label "TZCLKO10"
+	(hierarchical_label "TZCLKO10_P"
 		(shape output)
 		(at 500.38 204.47 0)
 		(effects
@@ -14396,7 +14432,7 @@
 		)
 		(uuid "de133b52-0a5d-4588-ab8a-2870bb57063d")
 	)
-	(hierarchical_label "TZCLKO2"
+	(hierarchical_label "TZCLKO2_P"
 		(shape output)
 		(at 500.38 147.32 0)
 		(effects
@@ -14418,7 +14454,7 @@
 		)
 		(uuid "e32cb83a-ae2a-4a9a-aa02-9e59ec3a5b18")
 	)
-	(hierarchical_label "TZCLKO7"
+	(hierarchical_label "TZCLKO7_P"
 		(shape output)
 		(at 500.38 187.96 0)
 		(effects
@@ -14429,7 +14465,7 @@
 		)
 		(uuid "e4426348-e328-4b9c-8d1a-a928e52b528e")
 	)
-	(hierarchical_label "TZCLKO4"
+	(hierarchical_label "TZCLKO4_P"
 		(shape output)
 		(at 500.38 162.56 0)
 		(effects
@@ -14462,7 +14498,7 @@
 		)
 		(uuid "f9da71de-95a0-48b3-9852-a74088532874")
 	)
-	(hierarchical_label "~{TZCLK3}"
+	(hierarchical_label "TZCLK3_N"
 		(shape output)
 		(at 311.15 170.18 0)
 		(effects
@@ -15504,7 +15540,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 284.48 77.47 0)
+		(at 351.79 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15512,7 +15548,7 @@
 		(dnp no)
 		(uuid "1b545e3b-16a6-4405-b0e3-edeb58e6ff6d")
 		(property "Reference" "C211"
-			(at 287.02 76.2062 0)
+			(at 354.33 45.7262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15521,7 +15557,7 @@
 			)
 		)
 		(property "Value" "3.3nF"
-			(at 287.02 78.7462 0)
+			(at 354.33 48.2662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15530,7 +15566,7 @@
 			)
 		)
 		(property "Footprint" "hp16717:HP_0603"
-			(at 284.48 77.47 0)
+			(at 351.79 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15539,7 +15575,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 284.48 77.47 0)
+			(at 351.79 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15548,7 +15584,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 284.48 77.47 0)
+			(at 351.79 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16184,6 +16220,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 351.79 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ed8d2c1-8d4a-4506-baa1-9433cb2d757b")
+		(property "Reference" "#PWR0805"
+			(at 351.79 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 351.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 351.79 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 351.79 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e44b8590-2a90-45a0-843d-98d21350e5ce")
+		)
+		(instances
+			(project "hp16717"
+				(path "/173036db-20dd-4729-b214-c668df2e6caa/13732b3a-24bd-441b-9165-bdf997aa642d"
+					(reference "#PWR0805")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 309.88 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16682,7 +16785,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+		(property "Footprint" "hp16717:HP_R_Array_Convex_4x0603"
 			(at 306.07 164.465 90)
 			(effects
 				(font
@@ -16768,7 +16871,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+		(property "Footprint" "hp16717:HP_R_Array_Convex_4x0603"
 			(at 306.07 179.705 90)
 			(effects
 				(font
@@ -17502,7 +17605,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
+		(property "Footprint" "hp16717:HP_SOIC-20W_7.5x12.8mm_P1.27mm"
 			(at 156.21 31.75 0)
 			(effects
 				(font
@@ -18909,7 +19012,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+		(property "Footprint" "hp16717:HP_R_Array_Convex_4x0603"
 			(at 495.3 169.545 90)
 			(effects
 				(font
@@ -19782,7 +19885,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+		(property "Footprint" "hp16717:HP_R_Array_Convex_4x0603"
 			(at 306.07 210.185 90)
 			(effects
 				(font
@@ -20046,7 +20149,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+		(property "Footprint" "hp16717:HP_R_Array_Convex_4x0603"
 			(at 495.3 154.305 90)
 			(effects
 				(font
@@ -20403,7 +20506,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+		(property "Footprint" "hp16717:HP_R_Array_Convex_4x0603"
 			(at 495.3 200.025 90)
 			(effects
 				(font
@@ -23073,7 +23176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Oscillator:Oscillator_DIP-14"
+		(property "Footprint" "hp16717:HP_Oscillator_DIP-14"
 			(at 31.75 153.67 0)
 			(effects
 				(font
@@ -23932,7 +24035,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
+		(property "Footprint" "hp16717:HP_SOIC-20W_7.5x12.8mm_P1.27mm"
 			(at 210.82 152.4 0)
 			(effects
 				(font
@@ -24054,7 +24157,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+		(property "Footprint" "hp16717:HP_R_Array_Convex_4x0603"
 			(at 495.3 184.785 90)
 			(effects
 				(font
@@ -24140,7 +24243,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+		(property "Footprint" "hp16717:HP_R_Array_Convex_4x0603"
 			(at 306.07 194.945 90)
 			(effects
 				(font

@@ -12064,7 +12064,7 @@
 		)
 		(uuid "fd4f18c2-5491-4795-b72e-b0e4a8cf1be9")
 	)
-	(hierarchical_label "AP4_CLK"
+	(hierarchical_label "AP4_CLK_P"
 		(shape output)
 		(at 548.64 77.47 0)
 		(effects
@@ -12163,7 +12163,7 @@
 		)
 		(uuid "7787dc8f-3ab3-4d70-9e16-212c47829f82")
 	)
-	(hierarchical_label "~{TZP4_CLK}"
+	(hierarchical_label "TZP4_CLK_N"
 		(shape output)
 		(at 548.64 95.25 0)
 		(effects
@@ -12207,7 +12207,7 @@
 		)
 		(uuid "9b9b7393-1e76-4c2c-8585-e1001718124e")
 	)
-	(hierarchical_label "~{AP4_CLK}"
+	(hierarchical_label "AP4_CLK_N"
 		(shape output)
 		(at 548.64 90.17 0)
 		(effects
@@ -12240,7 +12240,7 @@
 		)
 		(uuid "ea46f163-313e-4ae1-8364-85606984f207")
 	)
-	(hierarchical_label "TZP4_CLK"
+	(hierarchical_label "TZP4_CLK_P"
 		(shape output)
 		(at 548.64 82.55 0)
 		(effects

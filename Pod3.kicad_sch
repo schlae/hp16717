@@ -11644,7 +11644,7 @@
 		)
 		(uuid "222e49f2-e809-4574-b169-c106dea0b3c8")
 	)
-	(label "~{AP3_CLK}"
+	(label "AP3_CLK_N"
 		(at 539.75 93.98 180)
 		(effects
 			(font
@@ -11784,7 +11784,7 @@
 		)
 		(uuid "67637105-ca93-44a3-961a-30b9ea64499d")
 	)
-	(label "AP3_CLK"
+	(label "AP3_CLK_P"
 		(at 539.75 81.28 180)
 		(effects
 			(font
@@ -11924,7 +11924,7 @@
 		)
 		(uuid "a47d2173-608c-45b0-a4eb-511c877a774e")
 	)
-	(label "~{TZP3_CLK}"
+	(label "TZP3_CLK_N"
 		(at 539.75 99.06 180)
 		(effects
 			(font
@@ -12004,7 +12004,7 @@
 		)
 		(uuid "d21c0ebd-f926-4d2b-8f36-d5fa7f02e76b")
 	)
-	(label "TZP3_CLK"
+	(label "TZP3_CLK_P"
 		(at 539.75 86.36 180)
 		(effects
 			(font
@@ -12136,7 +12136,7 @@
 		)
 		(uuid "30bd3f45-ad12-4fcc-8ab5-2541ad4be642")
 	)
-	(hierarchical_label "~{AP3_CLK}"
+	(hierarchical_label "AP3_CLK_N"
 		(shape output)
 		(at 553.72 93.98 0)
 		(effects
@@ -12169,7 +12169,7 @@
 		)
 		(uuid "5525674a-2613-4a4c-a3ea-d3afa74e8cf3")
 	)
-	(hierarchical_label "AP3_CLK"
+	(hierarchical_label "AP3_CLK_P"
 		(shape output)
 		(at 553.72 81.28 0)
 		(effects
@@ -12268,7 +12268,7 @@
 		)
 		(uuid "c0385e0b-e8d8-49df-9313-99ca0e761f9b")
 	)
-	(hierarchical_label "~{TZP3_CLK}"
+	(hierarchical_label "TZP3_CLK_N"
 		(shape output)
 		(at 553.72 99.06 0)
 		(effects
@@ -12279,7 +12279,7 @@
 		)
 		(uuid "e0488b34-64af-47ac-868d-eee52c2b7d2c")
 	)
-	(hierarchical_label "TZP3_CLK"
+	(hierarchical_label "TZP3_CLK_P"
 		(shape output)
 		(at 553.72 86.36 0)
 		(effects

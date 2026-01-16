@@ -3193,6 +3193,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "hp16717:TPS2011"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3895,6 +3978,16 @@
 		)
 		(uuid "24c9672b-c4f2-4d03-ad98-628b42b31dea")
 	)
+	(text "TOOLING HOLES"
+		(exclude_from_sim no)
+		(at 77.978 385.826 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3fff88f2-88d4-4480-8f07-1089924a85c2")
+	)
 	(text "MASTER"
 		(exclude_from_sim no)
 		(at 490.474 299.212 0)
@@ -3934,6 +4027,16 @@
 			)
 		)
 		(uuid "77b4160b-ff95-44b7-b1c7-df7ac4566a5f")
+	)
+	(text "PEM FASTENERS"
+		(exclude_from_sim no)
+		(at 75.946 364.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "93f0d2c0-2abd-4708-9d27-420822ba8d00")
 	)
 	(text "EXPAND"
 		(exclude_from_sim no)
@@ -5665,7 +5768,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 170.18) (xy 441.96 170.18)
+			(xy 431.8 170.18) (xy 444.5 170.18)
 		)
 		(stroke
 			(width 0)
@@ -6225,7 +6328,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 157.48) (xy 441.96 157.48)
+			(xy 431.8 157.48) (xy 444.5 157.48)
 		)
 		(stroke
 			(width 0)
@@ -6275,7 +6378,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 267.97) (xy 274.32 267.97)
+			(xy 264.16 267.97) (xy 276.86 267.97)
 		)
 		(stroke
 			(width 0)
@@ -6412,6 +6515,16 @@
 			(type default)
 		)
 		(uuid "11fa63e6-269e-4a40-a6a4-14a5bfe8d496")
+	)
+	(bus
+		(pts
+			(xy 241.3 146.05) (xy 246.38 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1229b9a8-6e8b-4e01-a0dc-b5360be4e7eb")
 	)
 	(wire
 		(pts
@@ -6585,7 +6698,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 285.75) (xy 274.32 285.75)
+			(xy 264.16 285.75) (xy 276.86 285.75)
 		)
 		(stroke
 			(width 0)
@@ -7045,7 +7158,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 295.91) (xy 274.32 295.91)
+			(xy 264.16 295.91) (xy 276.86 295.91)
 		)
 		(stroke
 			(width 0)
@@ -7145,7 +7258,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 288.29) (xy 274.32 288.29)
+			(xy 264.16 288.29) (xy 276.86 288.29)
 		)
 		(stroke
 			(width 0)
@@ -7345,7 +7458,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 137.16) (xy 441.96 137.16)
+			(xy 431.8 137.16) (xy 444.5 137.16)
 		)
 		(stroke
 			(width 0)
@@ -7775,7 +7888,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 142.24) (xy 441.96 142.24)
+			(xy 431.8 142.24) (xy 444.5 142.24)
 		)
 		(stroke
 			(width 0)
@@ -7902,6 +8015,16 @@
 			(type default)
 		)
 		(uuid "35fbc796-f319-4f75-be8e-4a59d18763d7")
+	)
+	(wire
+		(pts
+			(xy 241.3 151.13) (xy 246.38 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3628609c-dac7-4b85-81a5-bcee36ad5549")
 	)
 	(wire
 		(pts
@@ -8212,6 +8335,16 @@
 			(type default)
 		)
 		(uuid "3fb7bd84-a4c1-46bc-afe6-b912b863df2a")
+	)
+	(wire
+		(pts
+			(xy 241.3 156.21) (xy 246.38 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4015bb40-1e1a-439c-8d72-ab25a38200b1")
 	)
 	(bus
 		(pts
@@ -8555,7 +8688,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 270.51) (xy 274.32 270.51)
+			(xy 264.16 270.51) (xy 276.86 270.51)
 		)
 		(stroke
 			(width 0)
@@ -8805,7 +8938,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 278.13) (xy 274.32 278.13)
+			(xy 264.16 278.13) (xy 276.86 278.13)
 		)
 		(stroke
 			(width 0)
@@ -8845,7 +8978,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 177.8) (xy 441.96 177.8)
+			(xy 431.8 177.8) (xy 444.5 177.8)
 		)
 		(stroke
 			(width 0)
@@ -8882,6 +9015,16 @@
 			(type default)
 		)
 		(uuid "51a14a6e-db72-4931-8e0a-622a9e6935ff")
+	)
+	(wire
+		(pts
+			(xy 241.3 153.67) (xy 246.38 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51b8fc1b-a5a0-40fc-9677-04b7e6b6b80b")
 	)
 	(wire
 		(pts
@@ -8925,6 +9068,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 163.83) (xy 246.38 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "526b228f-ef85-4094-8908-6668b5a736dd")
+	)
+	(wire
+		(pts
 			(xy 334.01 280.67) (xy 334.01 281.94)
 		)
 		(stroke
@@ -8932,6 +9085,16 @@
 			(type default)
 		)
 		(uuid "5282d146-15d6-46f8-9f6c-26331782fa3c")
+	)
+	(wire
+		(pts
+			(xy 241.3 168.91) (xy 246.38 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52d1e13e-f729-48ac-8d48-74f1e8ed7a3a")
 	)
 	(wire
 		(pts
@@ -9125,7 +9288,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 152.4) (xy 441.96 152.4)
+			(xy 431.8 152.4) (xy 444.5 152.4)
 		)
 		(stroke
 			(width 0)
@@ -9172,6 +9335,16 @@
 			(type default)
 		)
 		(uuid "592235c9-685c-4984-b6a3-92f9512c11d2")
+	)
+	(bus
+		(pts
+			(xy 241.3 100.33) (xy 246.38 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59271d6a-ec3f-46d5-90bb-477b92aa71b2")
 	)
 	(wire
 		(pts
@@ -9415,6 +9588,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 350.52) (xy 299.72 350.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f9f8b85-34cb-4f35-b529-cbe99ec810b1")
+	)
+	(wire
+		(pts
 			(xy 77.47 120.65) (xy 77.47 113.03)
 		)
 		(stroke
@@ -9572,6 +9755,16 @@
 			(type default)
 		)
 		(uuid "63c01249-0fbb-4d80-ab85-9292c38f1efc")
+	)
+	(wire
+		(pts
+			(xy 299.72 198.12) (xy 299.72 350.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63d948a4-cf8a-41ce-8736-771ba9424e1f")
 	)
 	(wire
 		(pts
@@ -9795,7 +9988,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 280.67) (xy 274.32 280.67)
+			(xy 264.16 280.67) (xy 276.86 280.67)
 		)
 		(stroke
 			(width 0)
@@ -9815,7 +10008,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 162.56) (xy 441.96 162.56)
+			(xy 431.8 162.56) (xy 444.5 162.56)
 		)
 		(stroke
 			(width 0)
@@ -9885,7 +10078,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 300.99) (xy 274.32 300.99)
+			(xy 264.16 300.99) (xy 276.86 300.99)
 		)
 		(stroke
 			(width 0)
@@ -10535,7 +10728,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 252.73) (xy 274.32 252.73)
+			(xy 264.16 252.73) (xy 276.86 252.73)
 		)
 		(stroke
 			(width 0)
@@ -10665,7 +10858,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 160.02) (xy 441.96 160.02)
+			(xy 431.8 160.02) (xy 444.5 160.02)
 		)
 		(stroke
 			(width 0)
@@ -10702,6 +10895,16 @@
 			(type default)
 		)
 		(uuid "7ed8f398-d668-47df-aaeb-2e6acb3ccc01")
+	)
+	(bus
+		(pts
+			(xy 241.3 90.17) (xy 246.38 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ee63ab7-a9e1-4e1d-9503-a4fb0e356d25")
 	)
 	(wire
 		(pts
@@ -10785,7 +10988,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 172.72) (xy 441.96 172.72)
+			(xy 431.8 172.72) (xy 444.5 172.72)
 		)
 		(stroke
 			(width 0)
@@ -10795,7 +10998,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 165.1) (xy 441.96 165.1)
+			(xy 431.8 165.1) (xy 444.5 165.1)
 		)
 		(stroke
 			(width 0)
@@ -10935,7 +11138,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 283.21) (xy 274.32 283.21)
+			(xy 264.16 283.21) (xy 276.86 283.21)
 		)
 		(stroke
 			(width 0)
@@ -10955,7 +11158,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 134.62) (xy 441.96 134.62)
+			(xy 431.8 134.62) (xy 444.5 134.62)
 		)
 		(stroke
 			(width 0)
@@ -11185,7 +11388,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 260.35) (xy 274.32 260.35)
+			(xy 264.16 260.35) (xy 276.86 260.35)
 		)
 		(stroke
 			(width 0)
@@ -11245,7 +11448,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 175.26) (xy 441.96 175.26)
+			(xy 431.8 175.26) (xy 444.5 175.26)
 		)
 		(stroke
 			(width 0)
@@ -11415,7 +11618,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 257.81) (xy 274.32 257.81)
+			(xy 264.16 257.81) (xy 276.86 257.81)
 		)
 		(stroke
 			(width 0)
@@ -12055,6 +12258,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 161.29) (xy 246.38 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f3cfec0-d439-4780-aee6-4e6f40f2e3a1")
+	)
+	(wire
+		(pts
 			(xy 316.23 154.94) (xy 364.49 154.94)
 		)
 		(stroke
@@ -12065,7 +12278,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 167.64) (xy 441.96 167.64)
+			(xy 431.8 167.64) (xy 444.5 167.64)
 		)
 		(stroke
 			(width 0)
@@ -12215,7 +12428,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 298.45) (xy 274.32 298.45)
+			(xy 264.16 298.45) (xy 276.86 298.45)
 		)
 		(stroke
 			(width 0)
@@ -12342,6 +12555,16 @@
 			(type default)
 		)
 		(uuid "a62f9c62-1cfd-41be-87b6-a5f4398fe3c7")
+	)
+	(wire
+		(pts
+			(xy 241.3 166.37) (xy 246.38 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a655102e-289e-4b5f-9b96-3d8a110e21a0")
 	)
 	(wire
 		(pts
@@ -12485,7 +12708,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 144.78) (xy 441.96 144.78)
+			(xy 431.8 144.78) (xy 444.5 144.78)
 		)
 		(stroke
 			(width 0)
@@ -12745,7 +12968,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 147.32) (xy 441.96 147.32)
+			(xy 431.8 147.32) (xy 444.5 147.32)
 		)
 		(stroke
 			(width 0)
@@ -12945,7 +13168,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 129.54) (xy 441.96 129.54)
+			(xy 431.8 129.54) (xy 444.5 129.54)
 		)
 		(stroke
 			(width 0)
@@ -12985,7 +13208,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 262.89) (xy 274.32 262.89)
+			(xy 264.16 262.89) (xy 276.86 262.89)
 		)
 		(stroke
 			(width 0)
@@ -13115,7 +13338,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 132.08) (xy 441.96 132.08)
+			(xy 431.8 132.08) (xy 444.5 132.08)
 		)
 		(stroke
 			(width 0)
@@ -13255,7 +13478,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 139.7) (xy 441.96 139.7)
+			(xy 431.8 139.7) (xy 444.5 139.7)
 		)
 		(stroke
 			(width 0)
@@ -13565,7 +13788,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 275.59) (xy 274.32 275.59)
+			(xy 264.16 275.59) (xy 276.86 275.59)
 		)
 		(stroke
 			(width 0)
@@ -13612,6 +13835,16 @@
 			(type default)
 		)
 		(uuid "c604811e-ce83-4167-ad09-00f129faa847")
+	)
+	(bus
+		(pts
+			(xy 241.3 148.59) (xy 246.38 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c64a9a6a-584b-4404-b2b9-0b28bfd1989d")
 	)
 	(wire
 		(pts
@@ -13865,7 +14098,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 293.37) (xy 274.32 293.37)
+			(xy 264.16 293.37) (xy 276.86 293.37)
 		)
 		(stroke
 			(width 0)
@@ -13915,7 +14148,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 154.94) (xy 441.96 154.94)
+			(xy 431.8 154.94) (xy 444.5 154.94)
 		)
 		(stroke
 			(width 0)
@@ -13945,7 +14178,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 290.83) (xy 274.32 290.83)
+			(xy 264.16 290.83) (xy 276.86 290.83)
 		)
 		(stroke
 			(width 0)
@@ -14285,7 +14518,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 265.43) (xy 274.32 265.43)
+			(xy 264.16 265.43) (xy 276.86 265.43)
 		)
 		(stroke
 			(width 0)
@@ -14565,6 +14798,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 158.75) (xy 246.38 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e11bb925-2b3d-4fa3-be72-928e7f3994f1")
+	)
+	(wire
+		(pts
 			(xy 342.9 260.35) (xy 345.44 260.35)
 		)
 		(stroke
@@ -14825,7 +15068,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 273.05) (xy 274.32 273.05)
+			(xy 264.16 273.05) (xy 276.86 273.05)
 		)
 		(stroke
 			(width 0)
@@ -15095,7 +15338,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 149.86) (xy 441.96 149.86)
+			(xy 431.8 149.86) (xy 444.5 149.86)
 		)
 		(stroke
 			(width 0)
@@ -15345,7 +15588,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 255.27) (xy 274.32 255.27)
+			(xy 264.16 255.27) (xy 276.86 255.27)
 		)
 		(stroke
 			(width 0)
@@ -15773,8 +16016,8 @@
 		)
 		(uuid "09634153-7015-4795-aefe-c6c55b47c259")
 	)
-	(label "~{TZCLKO6}"
-		(at 274.32 280.67 180)
+	(label "TZCLKO6_N"
+		(at 276.86 280.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15813,8 +16056,18 @@
 		)
 		(uuid "0bb7c85a-e2e7-4b9b-bea6-3605d7d98365")
 	)
-	(label "TZCLKO7"
-		(at 274.32 283.21 180)
+	(label "TZCLKO9_P"
+		(at 444.5 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0e47b00d-76e8-41c6-8c25-1a13c29f0b86")
+	)
+	(label "TZCLKO7_P"
+		(at 276.86 283.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15843,8 +16096,8 @@
 		)
 		(uuid "146e14e6-bca1-467a-ab63-ffdb6893b8ba")
 	)
-	(label "~{TZCLK09}"
-		(at 274.32 295.91 180)
+	(label "TZCLKO9_N"
+		(at 276.86 295.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15853,8 +16106,8 @@
 		)
 		(uuid "16830e7d-3b01-4afc-8e11-53b80f8c4f0c")
 	)
-	(label "~{TZCLKO7}"
-		(at 274.32 285.75 180)
+	(label "TZCLKO7_N"
+		(at 276.86 285.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15863,8 +16116,8 @@
 		)
 		(uuid "168d3723-ad47-4671-88c2-1cebbc2eb3bd")
 	)
-	(label "~{TZCLKO3}"
-		(at 274.32 265.43 180)
+	(label "TZCLKO3_N"
+		(at 276.86 265.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15873,8 +16126,8 @@
 		)
 		(uuid "191b9a1b-2af6-4b1b-aee8-92ec918778c6")
 	)
-	(label "~{TZCLKO1}"
-		(at 274.32 255.27 180)
+	(label "TZCLKO1_N"
+		(at 276.86 255.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15893,8 +16146,8 @@
 		)
 		(uuid "1ab201a3-10c4-4a28-92ba-d38c0ba20a50")
 	)
-	(label "TZCLKO3"
-		(at 441.96 139.7 180)
+	(label "TZCLKO3_P"
+		(at 444.5 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15903,8 +16156,8 @@
 		)
 		(uuid "1b4a1993-d3fd-489f-bdda-613dc600bff2")
 	)
-	(label "~{TZCLK10}"
-		(at 274.32 300.99 180)
+	(label "TZCLKO10_N"
+		(at 276.86 300.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15913,8 +16166,8 @@
 		)
 		(uuid "1bec16e7-a029-4463-b1fc-e45b26ad5410")
 	)
-	(label "TZCLKO5"
-		(at 441.96 149.86 180)
+	(label "TZCLKO5_P"
+		(at 444.5 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15943,8 +16196,8 @@
 		)
 		(uuid "23edd661-a953-4bd0-b6ff-3346a1582edb")
 	)
-	(label "TZCLKO5"
-		(at 274.32 273.05 180)
+	(label "TZCLKO5_P"
+		(at 276.86 273.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15972,6 +16225,16 @@
 			(justify left bottom)
 		)
 		(uuid "2c0a1f79-5fe8-4e39-a259-9e9fb42893b0")
+	)
+	(label "TZCLKO10_N"
+		(at 444.5 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2c409454-0fee-40fa-800a-b8a4ba4bb45a")
 	)
 	(label "P2_D9"
 		(at 48.26 107.95 0)
@@ -16002,16 +16265,6 @@
 			(justify left bottom)
 		)
 		(uuid "2e531b37-2eb8-4008-a668-c5c723dbad68")
-	)
-	(label "TZCLK10"
-		(at 441.96 175.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2e70f5b3-8d81-4b66-b35b-f3c653c76966")
 	)
 	(label "P3_D8"
 		(at 80.01 259.08 0)
@@ -16083,8 +16336,8 @@
 		)
 		(uuid "3a40e735-2ee5-4264-8d12-2c3936c3aaf8")
 	)
-	(label "~{TZCLKO3}"
-		(at 441.96 142.24 180)
+	(label "TZCLKO3_N"
+		(at 444.5 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16133,8 +16386,8 @@
 		)
 		(uuid "421c35e1-38c0-4ab0-8284-fb916ad59c8f")
 	)
-	(label "~{TZCLKO2}"
-		(at 274.32 260.35 180)
+	(label "TZCLKO2_N"
+		(at 276.86 260.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16163,8 +16416,8 @@
 		)
 		(uuid "46743ed3-3917-47b9-82da-cfd02132afc8")
 	)
-	(label "~{TZCLKO4}"
-		(at 441.96 147.32 180)
+	(label "TZCLKO4_N"
+		(at 444.5 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16183,8 +16436,8 @@
 		)
 		(uuid "4e5cfda2-02fd-41d6-a6a9-c7e8b82b5769")
 	)
-	(label "TZCLKO2"
-		(at 441.96 134.62 180)
+	(label "TZCLKO2_P"
+		(at 444.5 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16193,8 +16446,8 @@
 		)
 		(uuid "503080ae-9ccb-4f5e-adca-f610981f970d")
 	)
-	(label "TZCLKO1"
-		(at 274.32 252.73 180)
+	(label "TZCLKO1_P"
+		(at 276.86 252.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16203,8 +16456,8 @@
 		)
 		(uuid "5303cc0d-2112-4abf-b421-f67ed4f79899")
 	)
-	(label "TZCLKO7"
-		(at 441.96 160.02 180)
+	(label "TZCLKO7_P"
+		(at 444.5 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16223,8 +16476,8 @@
 		)
 		(uuid "555655f1-cd96-475a-a21c-5b29442fd375")
 	)
-	(label "TZCLKO4"
-		(at 274.32 267.97 180)
+	(label "TZCLKO4_P"
+		(at 276.86 267.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16273,8 +16526,8 @@
 		)
 		(uuid "572a52d3-737e-44ea-ae21-1a12015d1ac3")
 	)
-	(label "TZCLKO3"
-		(at 274.32 262.89 180)
+	(label "TZCLKO3_P"
+		(at 276.86 262.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16303,8 +16556,8 @@
 		)
 		(uuid "59918cc9-b134-4c92-9da7-745840446e34")
 	)
-	(label "TZCLKO4"
-		(at 441.96 144.78 180)
+	(label "TZCLKO4_P"
+		(at 444.5 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16313,8 +16566,8 @@
 		)
 		(uuid "5b58dfc1-7509-4faf-af88-82b6b9a85654")
 	)
-	(label "TZCLKO6"
-		(at 441.96 154.94 180)
+	(label "TZCLKO6_P"
+		(at 444.5 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16333,8 +16586,8 @@
 		)
 		(uuid "61f25a1f-1428-425e-95b2-431c6766943f")
 	)
-	(label "TZCLKO8"
-		(at 441.96 165.1 180)
+	(label "TZCLKO8_P"
+		(at 444.5 165.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16353,8 +16606,8 @@
 		)
 		(uuid "6227924c-2d32-4dac-a2ec-f0e9a8327ce0")
 	)
-	(label "TZCLKO6"
-		(at 274.32 278.13 180)
+	(label "TZCLKO6_P"
+		(at 276.86 278.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16373,8 +16626,8 @@
 		)
 		(uuid "6354c0d9-d082-49df-a598-d70c5cb8fc62")
 	)
-	(label "~{TZCLKO4}"
-		(at 274.32 270.51 180)
+	(label "TZCLKO4_N"
+		(at 276.86 270.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16393,8 +16646,8 @@
 		)
 		(uuid "6736b75a-af15-4bf4-bcf3-db9f10c5d316")
 	)
-	(label "TZCLKO1"
-		(at 441.96 129.54 180)
+	(label "TZCLKO1_P"
+		(at 444.5 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16402,16 +16655,6 @@
 			(justify right bottom)
 		)
 		(uuid "6b4bad52-f143-4c58-a326-9ab6993c2f56")
-	)
-	(label "TZCLK09"
-		(at 441.96 170.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6c12bc92-ab54-496d-8d6c-9cb94e3c1647")
 	)
 	(label "P4_D1"
 		(at 48.26 233.68 0)
@@ -16483,8 +16726,8 @@
 		)
 		(uuid "7beb3032-c4cc-4edd-8f03-6012e4613af6")
 	)
-	(label "~{TZCLKO6}"
-		(at 441.96 157.48 180)
+	(label "TZCLKO6_N"
+		(at 444.5 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16513,8 +16756,8 @@
 		)
 		(uuid "8371f48c-520b-49f0-bb4e-c4868fceebb6")
 	)
-	(label "~{TZCLKO8}"
-		(at 441.96 167.64 180)
+	(label "TZCLKO8_N"
+		(at 444.5 167.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16553,8 +16796,8 @@
 		)
 		(uuid "8de4ae07-b069-49e0-b563-d3c6225ae934")
 	)
-	(label "TZCLKO2"
-		(at 274.32 257.81 180)
+	(label "TZCLKO2_P"
+		(at 276.86 257.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16583,8 +16826,8 @@
 		)
 		(uuid "97be4288-9452-4c48-a812-b059c94378b5")
 	)
-	(label "TZCLKO8"
-		(at 274.32 288.29 180)
+	(label "TZCLKO8_P"
+		(at 276.86 288.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16603,8 +16846,8 @@
 		)
 		(uuid "9ceaabda-9f99-4294-9f33-dd1337e326dc")
 	)
-	(label "TZCLK09"
-		(at 274.32 293.37 180)
+	(label "TZCLKO9_P"
+		(at 276.86 293.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16623,8 +16866,18 @@
 		)
 		(uuid "9e305ac7-7c6e-4d0c-8dce-660c33717fc6")
 	)
-	(label "TZCLK10"
-		(at 274.32 298.45 180)
+	(label "TZCLKO9_N"
+		(at 444.5 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a2ea9b03-0b0d-4a2b-8e90-08f11a4d01d6")
+	)
+	(label "TZCLKO10_P"
+		(at 276.86 298.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16643,18 +16896,8 @@
 		)
 		(uuid "a763d1c7-e7e8-4f7f-8a88-26b260d9117b")
 	)
-	(label "~{TZCLK09}"
-		(at 441.96 172.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a84918de-9019-4e91-8d88-873443871e2a")
-	)
-	(label "~{TZCLKO5}"
-		(at 441.96 152.4 180)
+	(label "TZCLKO5_N"
+		(at 444.5 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16713,8 +16956,8 @@
 		)
 		(uuid "be0ced53-0306-4a24-bf0d-3ae6e76552eb")
 	)
-	(label "~{TZCLKO8}"
-		(at 274.32 290.83 180)
+	(label "TZCLKO8_N"
+		(at 276.86 290.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16723,8 +16966,8 @@
 		)
 		(uuid "c5ad5741-2dd6-4b82-9331-f9882ff30670")
 	)
-	(label "~{TZCLKO1}"
-		(at 441.96 132.08 180)
+	(label "TZCLKO1_N"
+		(at 444.5 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16763,8 +17006,8 @@
 		)
 		(uuid "ceaa2f22-d4fa-485d-add9-4645504deb19")
 	)
-	(label "~{TZCLKO7}"
-		(at 441.96 162.56 180)
+	(label "TZCLKO7_N"
+		(at 444.5 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16833,6 +17076,16 @@
 		)
 		(uuid "df1a811a-2aeb-4468-b21d-20c46aedf27b")
 	)
+	(label "TZCLKO10_P"
+		(at 444.5 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e11214b3-2d8f-42cf-be3d-452b9c5b0cf7")
+	)
 	(label "P2_D11"
 		(at 48.26 115.57 0)
 		(effects
@@ -16863,8 +17116,8 @@
 		)
 		(uuid "e40938ad-4dce-4760-9ebf-4b794761f3ee")
 	)
-	(label "~{TZCLKO5}"
-		(at 274.32 275.59 180)
+	(label "TZCLKO5_N"
+		(at 276.86 275.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16872,16 +17125,6 @@
 			(justify right bottom)
 		)
 		(uuid "e4743567-2bab-4b96-a342-939028adb008")
-	)
-	(label "~{TZCLK10}"
-		(at 441.96 177.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e66f33aa-e401-47ef-a599-b81ce6013ea2")
 	)
 	(label "P3_CLK"
 		(at 80.01 297.18 0)
@@ -16923,8 +17166,8 @@
 		)
 		(uuid "f576f8e9-230b-4cf8-b737-19154ff86d62")
 	)
-	(label "~{TZCLKO2}"
-		(at 441.96 137.16 180)
+	(label "TZCLKO2_N"
+		(at 444.5 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17179,7 +17422,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "hp16717:HP_SO-8_3.9x4.9mm_P1.27mm"
 			(at 41.91 195.58 0)
 			(effects
 				(font
@@ -17525,7 +17768,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.47uF"
+		(property "Value" "4.7uF"
 			(at 74.93 171.0181 0)
 			(effects
 				(font
@@ -17534,7 +17777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B"
+		(property "Footprint" "hp16717:HP_CP_EIA-3528"
 			(at 72.39 170.18 0)
 			(effects
 				(font
@@ -18307,6 +18550,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 67.31 374.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24d1f33c-1859-43cd-85a7-76b001eaad33")
+		(property "Reference" "#PWR0801"
+			(at 67.31 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f795c0a2-da2c-413e-af1f-aafb00573367")
+		)
+		(instances
+			(project "hp16717"
+				(path "/173036db-20dd-4729-b214-c668df2e6caa"
+					(reference "#PWR0801")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 71.12 203.2 0)
 		(unit 1)
@@ -18402,7 +18712,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_TDK_NLV32_3.2x2.5mm"
+		(property "Footprint" "hp16717:HP_L_3.2x2.5mm"
 			(at 68.58 43.688 90)
 			(effects
 				(font
@@ -18509,6 +18819,71 @@
 			(project "hp16717"
 				(path "/173036db-20dd-4729-b214-c668df2e6caa"
 					(reference "C243")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 76.2 391.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2da90f98-53ef-4873-ae84-9a460af738d9")
+		(property "Reference" "H2"
+			(at 78.74 391.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 78.74 392.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "hp16717:HP_TOOLING_125"
+			(at 76.2 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 76.2 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hp16717"
+				(path "/173036db-20dd-4729-b214-c668df2e6caa"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -19464,6 +19839,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 73.66 374.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "504b9626-a381-4157-94f6-7c88dc1e9622")
+		(property "Reference" "MH2"
+			(at 72.136 367.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 76.2 372.6179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "hp16717:HP_PEM_M3"
+			(at 78.74 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 73.66 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02893649-87e8-432e-ace3-025034d7abed")
+		)
+		(instances
+			(project "hp16717"
+				(path "/173036db-20dd-4729-b214-c668df2e6caa"
+					(reference "MH2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 488.95 245.11 180)
 		(unit 1)
@@ -19527,6 +19969,71 @@
 			(project "hp16717"
 				(path "/173036db-20dd-4729-b214-c668df2e6caa"
 					(reference "C222")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 68.58 391.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50ebfdbb-b4d2-4679-a579-89204952fb3e")
+		(property "Reference" "H1"
+			(at 71.12 391.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 71.12 392.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "hp16717:HP_TOOLING_125"
+			(at 68.58 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 68.58 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/173036db-20dd-4729-b214-c668df2e6caa"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -19950,7 +20457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+		(property "Footprint" "hp16717:HP_TP_THTPad_D64_Drill48"
 			(at 45.72 340.36 0)
 			(effects
 				(font
@@ -20084,7 +20591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+		(property "Footprint" "hp16717:HP_TP_THTPad_D64_Drill48"
 			(at 58.42 340.36 0)
 			(effects
 				(font
@@ -20355,7 +20862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+		(property "Footprint" "hp16717:HP_TP_THTPad_D64_Drill48"
 			(at 52.07 340.36 0)
 			(effects
 				(font
@@ -20692,7 +21199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+		(property "Footprint" "hp16717:HP_TP_THTPad_D64_Drill48"
 			(at 64.77 340.36 0)
 			(effects
 				(font
@@ -21160,7 +21667,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D"
+		(property "Footprint" "hp16717:HP_CP_EIA-7343"
 			(at 60.96 171.45 0)
 			(effects
 				(font
@@ -21512,6 +22019,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 83.82 391.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "739f60f0-a444-44e3-bd1d-d4ddb9157f99")
+		(property "Reference" "H3"
+			(at 86.36 391.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 86.36 392.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "hp16717:HP_TOOLING_125"
+			(at 83.82 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 83.82 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hp16717"
+				(path "/173036db-20dd-4729-b214-c668df2e6caa"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 334.01 314.96 180)
 		(unit 1)
@@ -21770,6 +22342,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 80.01 374.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "751d0d02-693a-43f2-8cff-2720cda4a8e4")
+		(property "Reference" "#PWR0803"
+			(at 80.01 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.01 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 80.01 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11f42283-309f-4778-8991-a81dc3052e83")
+		)
+		(instances
+			(project "hp16717"
+				(path "/173036db-20dd-4729-b214-c668df2e6caa"
+					(reference "#PWR0803")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 27.94 386.08 0)
 		(unit 1)
@@ -21965,6 +22604,73 @@
 			(project "hp16717"
 				(path "/173036db-20dd-4729-b214-c668df2e6caa"
 					(reference "#PWR0365")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 80.01 374.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b5f6d13-7a36-469d-965e-a9a628193b56")
+		(property "Reference" "MH3"
+			(at 78.486 367.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 82.55 372.6179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "hp16717:HP_PEM_M3"
+			(at 85.09 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 80.01 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b556014-3ca9-467e-b3d0-803d555f27f5")
+		)
+		(instances
+			(project "hp16717"
+				(path "/173036db-20dd-4729-b214-c668df2e6caa"
+					(reference "MH3")
 					(unit 1)
 				)
 			)
@@ -22375,6 +23081,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 67.31 374.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8414dda1-0e65-4400-8e2b-1a1ee0a11ade")
+		(property "Reference" "MH1"
+			(at 65.786 367.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 69.85 372.6179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "hp16717:HP_PEM_M3"
+			(at 72.39 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 67.31 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "359f117b-54b9-4d55-8b78-91434d76a114")
+		)
+		(instances
+			(project "hp16717"
+				(path "/173036db-20dd-4729-b214-c668df2e6caa"
+					(reference "MH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 443.23 233.68 90)
 		(mirror x)
@@ -22470,7 +23243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+		(property "Footprint" "hp16717:HP_TP_THTPad_D64_Drill48"
 			(at 33.02 340.36 0)
 			(effects
 				(font
@@ -23049,6 +23822,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 86.36 374.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93fa23be-3cab-4707-8d30-a3ed45503dba")
+		(property "Reference" "MH4"
+			(at 84.836 367.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 88.9 372.6179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "hp16717:HP_PEM_M3"
+			(at 91.44 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 86.36 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85ff5de1-1c9d-49f0-93d5-370231037dd6")
+		)
+		(instances
+			(project "hp16717"
+				(path "/173036db-20dd-4729-b214-c668df2e6caa"
+					(reference "MH4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 313.69 278.13 180)
 		(unit 1)
@@ -23398,7 +24238,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "hp16717:HP_SO-8_3.9x4.9mm_P1.27mm"
 			(at 41.91 39.37 0)
 			(effects
 				(font
@@ -25220,6 +26060,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 73.66 374.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbd91f3c-82e1-463c-96d3-6611d7de59fb")
+		(property "Reference" "#PWR0802"
+			(at 73.66 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee447588-9cef-4dda-81e2-3403a588c64d")
+		)
+		(instances
+			(project "hp16717"
+				(path "/173036db-20dd-4729-b214-c668df2e6caa"
+					(reference "#PWR0802")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 342.9 283.21 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25580,7 +26487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+		(property "Footprint" "hp16717:HP_TP_THTPad_D64_Drill48"
 			(at 26.67 340.36 0)
 			(effects
 				(font
@@ -25614,6 +26521,73 @@
 			(project ""
 				(path "/173036db-20dd-4729-b214-c668df2e6caa"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 374.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0aedd93-7c00-462f-a5dd-ab82e566c2ee")
+		(property "Reference" "#PWR0804"
+			(at 86.36 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7365fa46-8312-4430-91bf-f779bbad1d31")
+		)
+		(instances
+			(project "hp16717"
+				(path "/173036db-20dd-4729-b214-c668df2e6caa"
+					(reference "#PWR0804")
 					(unit 1)
 				)
 			)
@@ -26324,7 +27298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+		(property "Footprint" "hp16717:HP_TP_THTPad_D64_Drill48"
 			(at 39.37 340.36 0)
 			(effects
 				(font
@@ -27266,7 +28240,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_TDK_NLV32_3.2x2.5mm"
+		(property "Footprint" "hp16717:HP_L_3.2x2.5mm"
 			(at 68.58 199.898 90)
 			(effects
 				(font
@@ -27409,7 +28383,7 @@
 				(justify left top)
 			)
 		)
-		(pin "AP4_CLK" output
+		(pin "AP4_CLK_P" output
 			(at 165.1 302.26 0)
 			(uuid "7a9f0ce3-98bf-4c37-8cac-18982379037c")
 			(effects
@@ -27509,7 +28483,7 @@
 				(justify right)
 			)
 		)
-		(pin "TZP4_CLK" output
+		(pin "TZP4_CLK_P" output
 			(at 165.1 318.77 0)
 			(uuid "fe7d57c7-9588-4a8a-b50e-7ecca52febee")
 			(effects
@@ -27549,7 +28523,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{AP4_CLK}" output
+		(pin "AP4_CLK_N" output
 			(at 165.1 304.8 0)
 			(uuid "dc2f2fc5-f8c5-431a-973c-c6a0d5ec7a59")
 			(effects
@@ -27569,7 +28543,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{TZP4_CLK}" output
+		(pin "TZP4_CLK_N" output
 			(at 165.1 321.31 0)
 			(uuid "b1435bfb-6a6c-4ac9-8dba-23124bdf4163")
 			(effects
@@ -27621,7 +28595,7 @@
 				(justify left top)
 			)
 		)
-		(pin "AP3_CLK" output
+		(pin "AP3_CLK_P" output
 			(at 165.1 185.42 0)
 			(uuid "fa3b0ccf-486a-4db8-ad46-fd1d8681712c")
 			(effects
@@ -27721,7 +28695,7 @@
 				(justify left)
 			)
 		)
-		(pin "TZP3_CLK" output
+		(pin "TZP3_CLK_P" output
 			(at 165.1 201.93 0)
 			(uuid "0a814743-00aa-4805-a794-b9df5029ae66")
 			(effects
@@ -27761,7 +28735,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{AP3_CLK}" output
+		(pin "AP3_CLK_N" output
 			(at 165.1 187.96 0)
 			(uuid "99d646af-e318-4efc-9ee8-a518301acd7b")
 			(effects
@@ -27781,7 +28755,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{TZP3_CLK}" output
+		(pin "TZP3_CLK_N" output
 			(at 165.1 204.47 0)
 			(uuid "5566447a-3736-4109-96cc-dbfdb1fb043e")
 			(effects
@@ -27801,7 +28775,7 @@
 	)
 	(sheet
 		(at 246.38 60.96)
-		(size 69.85 30.48)
+		(size 69.85 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -27825,7 +28799,7 @@
 			)
 		)
 		(property "Sheetfile" "AcqRAM2.kicad_sch"
-			(at 246.38 92.0246 0)
+			(at 246.38 93.2946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28033,6 +29007,16 @@
 				(justify left)
 			)
 		)
+		(pin "VSC[18..9]" output
+			(at 246.38 90.17 180)
+			(uuid "35e43e40-cec1-4d9d-a750-af98d6fa8835")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "hp16717"
 				(path "/173036db-20dd-4729-b214-c668df2e6caa"
@@ -28075,7 +29059,7 @@
 				(justify left top)
 			)
 		)
-		(pin "100M_SYSCLK2" bidirectional
+		(pin "100M_SYSCLK2_P" bidirectional
 			(at 364.49 146.05 180)
 			(uuid "9ab6b26a-3116-492d-beac-59d202011537")
 			(effects
@@ -28085,7 +29069,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{100M_SYSCLK2}" bidirectional
+		(pin "100M_SYSCLK2_N" bidirectional
 			(at 364.49 148.59 180)
 			(uuid "05e01d47-80a7-4cec-bb7d-0b5819e0b22c")
 			(effects
@@ -28125,7 +29109,7 @@
 				(justify left)
 			)
 		)
-		(pin "TZCLK1" output
+		(pin "TZCLK1_P" output
 			(at 419.1 190.5 270)
 			(uuid "095a653a-9c5b-467c-9c7b-1362b7827128")
 			(effects
@@ -28135,7 +29119,7 @@
 				(justify left)
 			)
 		)
-		(pin "TZCLK2" output
+		(pin "TZCLK2_P" output
 			(at 414.02 190.5 270)
 			(uuid "e376f3bc-7684-415a-b390-95e3cac04f99")
 			(effects
@@ -28145,7 +29129,7 @@
 				(justify left)
 			)
 		)
-		(pin "TZCLK3" output
+		(pin "TZCLK3_P" output
 			(at 408.94 190.5 270)
 			(uuid "3378d841-8af9-4a5d-8122-816880abd45b")
 			(effects
@@ -28155,7 +29139,7 @@
 				(justify left)
 			)
 		)
-		(pin "TZCLK4" output
+		(pin "TZCLK4_P" output
 			(at 403.86 190.5 270)
 			(uuid "66729296-aa9d-4491-a6c4-06ead6e9f056")
 			(effects
@@ -28165,7 +29149,7 @@
 				(justify left)
 			)
 		)
-		(pin "TZCLK5" output
+		(pin "TZCLK5_P" output
 			(at 398.78 190.5 270)
 			(uuid "878d6cd8-2111-4de5-8b07-061a193ccb32")
 			(effects
@@ -28195,7 +29179,7 @@
 				(justify left)
 			)
 		)
-		(pin "TZCLKI" input
+		(pin "TZCLKI_P" input
 			(at 364.49 185.42 180)
 			(uuid "4b3d0a5c-690c-4326-986d-8146ce20b85b")
 			(effects
@@ -28205,7 +29189,7 @@
 				(justify left)
 			)
 		)
-		(pin "TZCLKO1" output
+		(pin "TZCLKO1_P" output
 			(at 431.8 129.54 0)
 			(uuid "5521fbb6-16cf-4f5f-bdca-de103dfec732")
 			(effects
@@ -28215,7 +29199,7 @@
 				(justify right)
 			)
 		)
-		(pin "TZCLKO2" output
+		(pin "TZCLKO2_P" output
 			(at 431.8 134.62 0)
 			(uuid "b0b635da-bdf6-46cd-b3e8-084db937cba1")
 			(effects
@@ -28225,7 +29209,7 @@
 				(justify right)
 			)
 		)
-		(pin "TZCLKO3" output
+		(pin "TZCLKO3_P" output
 			(at 431.8 139.7 0)
 			(uuid "5411282f-68a2-427d-af2a-518c69028fe3")
 			(effects
@@ -28235,7 +29219,7 @@
 				(justify right)
 			)
 		)
-		(pin "TZCLKO4" output
+		(pin "TZCLKO4_P" output
 			(at 431.8 144.78 0)
 			(uuid "70df2b55-4bae-4643-82cf-2bfe8df1fbf6")
 			(effects
@@ -28245,7 +29229,7 @@
 				(justify right)
 			)
 		)
-		(pin "TZCLKO5" output
+		(pin "TZCLKO5_P" output
 			(at 431.8 149.86 0)
 			(uuid "56dd0398-cf46-4924-866a-6b76b16cde1f")
 			(effects
@@ -28255,7 +29239,7 @@
 				(justify right)
 			)
 		)
-		(pin "TZCLKO6" output
+		(pin "TZCLKO6_P" output
 			(at 431.8 154.94 0)
 			(uuid "f9fd8eec-4612-4416-a534-69cfdcd65f8a")
 			(effects
@@ -28265,7 +29249,7 @@
 				(justify right)
 			)
 		)
-		(pin "TZCLKO7" output
+		(pin "TZCLKO7_P" output
 			(at 431.8 160.02 0)
 			(uuid "c32f49fa-11c5-4437-a24e-543d2877bd8b")
 			(effects
@@ -28275,7 +29259,7 @@
 				(justify right)
 			)
 		)
-		(pin "TZCLKO8" output
+		(pin "TZCLKO8_P" output
 			(at 431.8 165.1 0)
 			(uuid "2e8b6a93-5c68-4d38-beb0-b38c93b39107")
 			(effects
@@ -28285,7 +29269,7 @@
 				(justify right)
 			)
 		)
-		(pin "~{TZCLK1}" output
+		(pin "TZCLK1_N" output
 			(at 421.64 190.5 270)
 			(uuid "13034cdf-0d8d-4c5b-aa03-8df0799ac07d")
 			(effects
@@ -28295,7 +29279,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{TZCLK2}" output
+		(pin "TZCLK2_N" output
 			(at 416.56 190.5 270)
 			(uuid "8b9c5860-4926-4c47-981c-c51766849da5")
 			(effects
@@ -28305,7 +29289,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{TZCLK3}" output
+		(pin "TZCLK3_N" output
 			(at 411.48 190.5 270)
 			(uuid "3591847b-dd4e-44f4-aaf9-585f434dd192")
 			(effects
@@ -28315,7 +29299,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{TZCLK4}" output
+		(pin "TZCLK4_N" output
 			(at 406.4 190.5 270)
 			(uuid "72ab1ddd-c4db-4951-84dd-4245bba87d47")
 			(effects
@@ -28325,7 +29309,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{TZCLK5}" output
+		(pin "TZCLK5_N" output
 			(at 401.32 190.5 270)
 			(uuid "56cfba5c-f2ca-4314-a18e-d8da28271911")
 			(effects
@@ -28355,7 +29339,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{TZCLKI}" input
+		(pin "TZCLKI_N" input
 			(at 364.49 187.96 180)
 			(uuid "789b248b-0fb4-427f-a4ad-df5f49ff0f91")
 			(effects
@@ -28365,7 +29349,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{TZCLKO1}" output
+		(pin "TZCLKO1_N" output
 			(at 431.8 132.08 0)
 			(uuid "58e3fcac-d474-4118-9c35-a5cb4eaf8922")
 			(effects
@@ -28375,7 +29359,7 @@
 				(justify right)
 			)
 		)
-		(pin "~{TZCLKO2}" output
+		(pin "TZCLKO2_N" output
 			(at 431.8 137.16 0)
 			(uuid "f25339fd-9bf3-4404-b983-10200663376c")
 			(effects
@@ -28385,7 +29369,7 @@
 				(justify right)
 			)
 		)
-		(pin "~{TZCLKO3}" output
+		(pin "TZCLKO3_N" output
 			(at 431.8 142.24 0)
 			(uuid "eee38d9f-0451-4d70-9490-7b859278f9eb")
 			(effects
@@ -28395,7 +29379,7 @@
 				(justify right)
 			)
 		)
-		(pin "~{TZCLKO4}" output
+		(pin "TZCLKO4_N" output
 			(at 431.8 147.32 0)
 			(uuid "b9ae6662-301d-4a08-aeba-e68c74259247")
 			(effects
@@ -28405,7 +29389,7 @@
 				(justify right)
 			)
 		)
-		(pin "~{TZCLKO5}" output
+		(pin "TZCLKO5_N" output
 			(at 431.8 152.4 0)
 			(uuid "c60f9838-c6e0-4b10-b0c8-a56632a34987")
 			(effects
@@ -28415,7 +29399,7 @@
 				(justify right)
 			)
 		)
-		(pin "~{TZCLKO6}" output
+		(pin "TZCLKO6_N" output
 			(at 431.8 157.48 0)
 			(uuid "a9958cb5-0f15-48fb-b061-ba8530b4231b")
 			(effects
@@ -28425,7 +29409,7 @@
 				(justify right)
 			)
 		)
-		(pin "~{TZCLKO7}" output
+		(pin "TZCLKO7_N" output
 			(at 431.8 162.56 0)
 			(uuid "f2117b71-4f7a-4f8d-a2c0-97358e30cd75")
 			(effects
@@ -28435,7 +29419,7 @@
 				(justify right)
 			)
 		)
-		(pin "~{TZCLKO8}" output
+		(pin "TZCLKO8_N" output
 			(at 431.8 167.64 0)
 			(uuid "70e4e7cb-3110-4280-a7cd-47f27aff3e50")
 			(effects
@@ -28505,7 +29489,7 @@
 				(justify left)
 			)
 		)
-		(pin "TZCLKO9" output
+		(pin "TZCLKO9_P" output
 			(at 431.8 170.18 0)
 			(uuid "35c53126-2174-4c41-a74e-e10f2512232d")
 			(effects
@@ -28515,7 +29499,7 @@
 				(justify right)
 			)
 		)
-		(pin "TZCLKO10" output
+		(pin "TZCLKO10_P" output
 			(at 431.8 175.26 0)
 			(uuid "65dfecd8-5935-462f-ac47-1243805d484c")
 			(effects
@@ -28525,7 +29509,7 @@
 				(justify right)
 			)
 		)
-		(pin "~{TZCLKO9}" output
+		(pin "TZCLKO9_N" output
 			(at 431.8 172.72 0)
 			(uuid "b564d261-1df0-4a76-8951-49298238f41e")
 			(effects
@@ -28535,7 +29519,7 @@
 				(justify right)
 			)
 		)
-		(pin "~{TZCLKO10}" output
+		(pin "TZCLKO10_N" output
 			(at 431.8 177.8 0)
 			(uuid "a8342740-1755-4ec8-bbca-2597a217f617")
 			(effects
@@ -28677,7 +29661,7 @@
 				(justify left top)
 			)
 		)
-		(pin "AP2_CLK" output
+		(pin "AP2_CLK_P" output
 			(at 165.1 140.97 0)
 			(uuid "e8fbdd6c-4ab7-4cb7-8518-b4e0a2944696")
 			(effects
@@ -28777,7 +29761,7 @@
 				(justify right)
 			)
 		)
-		(pin "TZP2_CLK" output
+		(pin "TZP2_CLK_P" output
 			(at 165.1 157.48 0)
 			(uuid "f07322cd-4282-4959-91a0-b4e02be88e30")
 			(effects
@@ -28817,7 +29801,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{AP2_CLK}" output
+		(pin "AP2_CLK_N" output
 			(at 165.1 143.51 0)
 			(uuid "ef4cd86a-91c3-4290-828f-1d85c674abf6")
 			(effects
@@ -28837,7 +29821,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{TZP2_CLK}" output
+		(pin "TZP2_CLK_N" output
 			(at 165.1 160.02 0)
 			(uuid "5f304430-c12d-4be7-9cb5-aa2b8daf7016")
 			(effects
@@ -28856,8 +29840,8 @@
 		)
 	)
 	(sheet
-		(at 246.38 96.52)
-		(size 69.85 29.21)
+		(at 246.38 97.79)
+		(size 69.85 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -28872,7 +29856,7 @@
 		)
 		(uuid "95aa43a2-ff2e-4b2f-bd3c-33d01b6a9647")
 		(property "Sheetname" "Acq RAM 1"
-			(at 246.38 95.8084 0)
+			(at 246.38 97.0784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29089,6 +30073,16 @@
 				(justify left)
 			)
 		)
+		(pin "VSC[8..0]" output
+			(at 246.38 100.33 180)
+			(uuid "b21763cc-2dc3-4e9e-96b5-ffb92c9f22f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "hp16717"
 				(path "/173036db-20dd-4729-b214-c668df2e6caa"
@@ -29131,7 +30125,7 @@
 				(justify left top)
 			)
 		)
-		(pin "AP1_CLK" output
+		(pin "AP1_CLK_P" output
 			(at 165.1 57.15 0)
 			(uuid "fba65159-05db-41b9-b34c-e4fc1a1a2881")
 			(effects
@@ -29221,7 +30215,7 @@
 				(justify right)
 			)
 		)
-		(pin "TZP1_CLK" output
+		(pin "TZP1_CLK_P" output
 			(at 165.1 72.39 0)
 			(uuid "76c22eff-c0bd-4436-bd1e-7afe8cca19c2")
 			(effects
@@ -29261,7 +30255,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{AP1_CLK}" output
+		(pin "AP1_CLK_N" output
 			(at 165.1 59.69 0)
 			(uuid "8e1121ac-8237-4dd2-bb8d-48e83dc01243")
 			(effects
@@ -29271,7 +30265,7 @@
 				(justify right)
 			)
 		)
-		(pin "~{TZP1_CLK}" output
+		(pin "TZP1_CLK_N" output
 			(at 165.1 74.93 0)
 			(uuid "62d5c8f0-4054-4aab-8437-b67e6947669d")
 			(effects
@@ -29351,7 +30345,7 @@
 				)
 			)
 		)
-		(pin "TZP1_CLK" input
+		(pin "TZP1_CLK_P" input
 			(at 207.01 226.06 180)
 			(uuid "5a944f20-7950-4665-8b8d-18d12b690e60")
 			(effects
@@ -29371,7 +30365,7 @@
 				(justify left)
 			)
 		)
-		(pin "TZP2_CLK" input
+		(pin "TZP2_CLK_P" input
 			(at 207.01 241.3 180)
 			(uuid "e1c631f6-e498-48c4-8a57-cec85d97adca")
 			(effects
@@ -29391,7 +30385,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{TZP1_CLK}" input
+		(pin "TZP1_CLK_N" input
 			(at 207.01 228.6 180)
 			(uuid "374194e0-f13a-449c-9a54-3ee4217facb6")
 			(effects
@@ -29401,7 +30395,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{TZP2_CLK}" input
+		(pin "TZP2_CLK_N" input
 			(at 207.01 243.84 180)
 			(uuid "b7b8213b-eb7b-4d1e-bc54-c71f4f5a134c")
 			(effects
@@ -29411,7 +30405,7 @@
 				(justify left)
 			)
 		)
-		(pin "TZCLKO1" input
+		(pin "TZCLKO1_P" input
 			(at 264.16 252.73 0)
 			(uuid "a7ed898d-e0d8-4c73-a2c5-b13187807ae2")
 			(effects
@@ -29421,7 +30415,7 @@
 				(justify right)
 			)
 		)
-		(pin "TZCLKO2" input
+		(pin "TZCLKO2_P" input
 			(at 264.16 257.81 0)
 			(uuid "cc56785d-1dcf-4838-a5a9-04576096c484")
 			(effects
@@ -29431,7 +30425,7 @@
 				(justify right)
 			)
 		)
-		(pin "TZCLKO3" input
+		(pin "TZCLKO3_P" input
 			(at 264.16 262.89 0)
 			(uuid "a7257bb6-7aef-45c5-a2da-29fba8306e13")
 			(effects
@@ -29441,7 +30435,7 @@
 				(justify right)
 			)
 		)
-		(pin "TZCLKO4" input
+		(pin "TZCLKO4_P" input
 			(at 264.16 267.97 0)
 			(uuid "fd74d651-8160-4a6f-8b70-a504c5ef0f28")
 			(effects
@@ -29451,7 +30445,7 @@
 				(justify right)
 			)
 		)
-		(pin "TZCLKO5" input
+		(pin "TZCLKO5_P" input
 			(at 264.16 273.05 0)
 			(uuid "ff8a6c0d-5aeb-419e-8e40-f3602049f7e4")
 			(effects
@@ -29461,7 +30455,7 @@
 				(justify right)
 			)
 		)
-		(pin "TZCLKO6" input
+		(pin "TZCLKO6_P" input
 			(at 264.16 278.13 0)
 			(uuid "b19385cd-e082-4eae-a7dc-9a6a01d8a903")
 			(effects
@@ -29471,7 +30465,7 @@
 				(justify right)
 			)
 		)
-		(pin "TZCLKO7" input
+		(pin "TZCLKO7_P" input
 			(at 264.16 283.21 0)
 			(uuid "09a3dede-0d23-4ee8-b864-0dc4b494e8e1")
 			(effects
@@ -29481,7 +30475,7 @@
 				(justify right)
 			)
 		)
-		(pin "TZCLKO8" input
+		(pin "TZCLKO8_P" input
 			(at 264.16 288.29 0)
 			(uuid "87b887d8-f061-4720-9129-e099dce6c536")
 			(effects
@@ -29491,7 +30485,7 @@
 				(justify right)
 			)
 		)
-		(pin "~{TZCLKO1}" input
+		(pin "TZCLKO1_N" input
 			(at 264.16 255.27 0)
 			(uuid "0eea37cd-6754-4294-8d85-390b037551a7")
 			(effects
@@ -29501,7 +30495,7 @@
 				(justify right)
 			)
 		)
-		(pin "~{TZCLKO2}" input
+		(pin "TZCLKO2_N" input
 			(at 264.16 260.35 0)
 			(uuid "2be26535-d210-4ec9-9e9a-1882e63bc22a")
 			(effects
@@ -29511,7 +30505,7 @@
 				(justify right)
 			)
 		)
-		(pin "~{TZCLKO3}" input
+		(pin "TZCLKO3_N" input
 			(at 264.16 265.43 0)
 			(uuid "c5a64832-0339-4d31-82c2-c585ede21b8c")
 			(effects
@@ -29521,7 +30515,7 @@
 				(justify right)
 			)
 		)
-		(pin "~{TZCLKO4}" input
+		(pin "TZCLKO4_N" input
 			(at 264.16 270.51 0)
 			(uuid "e54c43f7-89bc-475d-8143-c2a651fb2166")
 			(effects
@@ -29531,7 +30525,7 @@
 				(justify right)
 			)
 		)
-		(pin "~{TZCLKO5}" input
+		(pin "TZCLKO5_N" input
 			(at 264.16 275.59 0)
 			(uuid "4e5f76e4-3de1-4836-9460-bb7d30b680e8")
 			(effects
@@ -29541,7 +30535,7 @@
 				(justify right)
 			)
 		)
-		(pin "~{TZCLKO6}" input
+		(pin "TZCLKO6_N" input
 			(at 264.16 280.67 0)
 			(uuid "872967e0-f636-484c-acf1-c681a4ab5bb4")
 			(effects
@@ -29551,7 +30545,7 @@
 				(justify right)
 			)
 		)
-		(pin "~{TZCLKO7}" input
+		(pin "TZCLKO7_N" input
 			(at 264.16 285.75 0)
 			(uuid "641638d6-8d19-4c6c-a9b5-faf904cf1e58")
 			(effects
@@ -29561,7 +30555,7 @@
 				(justify right)
 			)
 		)
-		(pin "~{TZCLKO8}" input
+		(pin "TZCLKO8_N" input
 			(at 264.16 290.83 0)
 			(uuid "eec873f2-0a51-4570-a08d-738c1be3efbb")
 			(effects
@@ -29681,7 +30675,7 @@
 				(justify left)
 			)
 		)
-		(pin "TZP4_CLK" input
+		(pin "TZP4_CLK_P" input
 			(at 207.01 283.21 180)
 			(uuid "96e45575-9388-4a8b-ba48-49f163fdcf0e")
 			(effects
@@ -29701,7 +30695,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{TZP4_CLK}" input
+		(pin "TZP4_CLK_N" input
 			(at 207.01 285.75 180)
 			(uuid "6f233ab7-6e51-42c0-b405-86f63cd1821f")
 			(effects
@@ -29711,7 +30705,7 @@
 				(justify left)
 			)
 		)
-		(pin "TZP3_CLK" input
+		(pin "TZP3_CLK_P" input
 			(at 207.01 267.97 180)
 			(uuid "77bb79e1-f657-4b8a-9c1a-26b4d88714a9")
 			(effects
@@ -29721,7 +30715,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{TZP3_CLK}" input
+		(pin "TZP3_CLK_N" input
 			(at 207.01 270.51 180)
 			(uuid "04ba824c-c0d3-4f39-a651-252627cecbc4")
 			(effects
@@ -29731,7 +30725,7 @@
 				(justify left)
 			)
 		)
-		(pin "TZCLKO9" output
+		(pin "TZCLKO9_P" output
 			(at 264.16 293.37 0)
 			(uuid "5492d3eb-4d43-4e19-a0aa-a0375a5d09e0")
 			(effects
@@ -29741,7 +30735,7 @@
 				(justify right)
 			)
 		)
-		(pin "TZCLKO10" output
+		(pin "TZCLKO10_P" output
 			(at 264.16 298.45 0)
 			(uuid "67699be3-b97c-4cc5-aff6-0594ce38ef9f")
 			(effects
@@ -29751,7 +30745,7 @@
 				(justify right)
 			)
 		)
-		(pin "~{TZCLKO9}" output
+		(pin "TZCLKO9_N" output
 			(at 264.16 295.91 0)
 			(uuid "fed0a6fd-cde3-4333-af4b-263eee2e0605")
 			(effects
@@ -29761,7 +30755,7 @@
 				(justify right)
 			)
 		)
-		(pin "~{TZCLKO10}" output
+		(pin "TZCLKO10_N" output
 			(at 264.16 300.99 0)
 			(uuid "3b385e8b-c72f-48a9-8a06-ef0a068045e3")
 			(effects
@@ -30055,7 +31049,7 @@
 				(justify right)
 			)
 		)
-		(pin "AP1_CLK" input
+		(pin "AP1_CLK_P" input
 			(at 203.2 57.15 180)
 			(uuid "81902d59-3434-49ae-8f4a-4cfd2bec01b4")
 			(effects
@@ -30075,7 +31069,7 @@
 				(justify left)
 			)
 		)
-		(pin "AP2_CLK" input
+		(pin "AP2_CLK_P" input
 			(at 203.2 140.97 180)
 			(uuid "fc685ee8-e44b-40be-8562-478713bb62a7")
 			(effects
@@ -30095,7 +31089,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{AP1_CLK}" input
+		(pin "AP1_CLK_N" input
 			(at 203.2 59.69 180)
 			(uuid "472376e9-1f8d-4fd9-a332-5491c04dd8ce")
 			(effects
@@ -30105,7 +31099,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{AP2_CLK}" input
+		(pin "AP2_CLK_N" input
 			(at 203.2 143.51 180)
 			(uuid "a479cf04-28c0-4a9a-850d-68aab7c039ed")
 			(effects
@@ -30195,7 +31189,7 @@
 				(justify right)
 			)
 		)
-		(pin "AP3_CLK" input
+		(pin "AP3_CLK_P" input
 			(at 203.2 185.42 180)
 			(uuid "3a61869d-0005-4059-b99a-a39e5016f12e")
 			(effects
@@ -30215,7 +31209,7 @@
 				(justify left)
 			)
 		)
-		(pin "AP4_CLK" input
+		(pin "AP4_CLK_P" input
 			(at 203.2 203.2 180)
 			(uuid "04f66879-031f-4f7f-8306-d0a13e8315fa")
 			(effects
@@ -30235,7 +31229,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{AP3_CLK}" input
+		(pin "AP3_CLK_N" input
 			(at 203.2 187.96 180)
 			(uuid "6c618f01-f551-4127-ac38-bd1a30038ba3")
 			(effects
@@ -30245,7 +31239,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{AP4_CLK}" input
+		(pin "AP4_CLK_N" input
 			(at 203.2 205.74 180)
 			(uuid "9d68059b-4bc8-4c74-918b-cd51ac5af949")
 			(effects
@@ -30525,6 +31519,126 @@
 				(justify right)
 			)
 		)
+		(pin "VSC[8..0]" output
+			(at 241.3 100.33 0)
+			(uuid "faaf81f7-23a7-437b-9a3e-213f7e98e0ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSC[18..9]" output
+			(at 241.3 90.17 0)
+			(uuid "e5d3cffd-9597-4b23-8a3c-0126969108b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "U21_FPGA[7..0]" bidirectional
+			(at 241.3 146.05 0)
+			(uuid "0a416c47-cc52-4300-ac70-acc4f8d120ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "U22_FPGA[7..0]" bidirectional
+			(at 241.3 148.59 0)
+			(uuid "4bd3c447-6753-4ef7-b11a-01aadc84ff2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IDB_CLK" input
+			(at 241.3 151.13 0)
+			(uuid "74151c30-6043-4a69-9871-abdab447743e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FPGA_ASIC_XC1" bidirectional
+			(at 241.3 153.67 0)
+			(uuid "51b1f5f8-91cc-417b-b5dd-2b5f091afdc1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FPGA_ASIC_XC2" bidirectional
+			(at 241.3 156.21 0)
+			(uuid "3a4863d2-2786-47f0-8750-8c1d7240f5db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FA_UNK1" bidirectional
+			(at 241.3 158.75 0)
+			(uuid "055ad1e3-4cc0-48cd-a22c-573109b4d304")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "U21_SYSCLK_N" output
+			(at 241.3 161.29 0)
+			(uuid "0990a9b1-42fd-4144-a1ed-bf4876ecee9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "U21_SYSCLK_P" output
+			(at 241.3 163.83 0)
+			(uuid "3df74729-fc99-4efa-8381-063c673bd39a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "U22_SYSCLK_N" output
+			(at 241.3 166.37 0)
+			(uuid "ed430e3a-55df-44c7-90f1-f9d04c797609")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "U22_SYSCLK_P" output
+			(at 241.3 168.91 0)
+			(uuid "8bf62009-dbce-4d39-99be-717759a3e2d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "hp16717"
 				(path "/173036db-20dd-4729-b214-c668df2e6caa"
@@ -30688,7 +31802,7 @@
 			)
 		)
 		(pin "BA[6..0]" bidirectional
-			(at 246.38 165.1 180)
+			(at 246.38 187.96 180)
 			(uuid "da36660f-9d1d-4e82-b016-146fafc6c4ca")
 			(effects
 				(font
@@ -30698,7 +31812,7 @@
 			)
 		)
 		(pin "BD[7..0]" bidirectional
-			(at 246.38 167.64 180)
+			(at 246.38 190.5 180)
 			(uuid "cb62858f-5118-4d07-a9df-eadb3de8932b")
 			(effects
 				(font
@@ -30708,7 +31822,7 @@
 			)
 		)
 		(pin "BR{slash}~{W}" output
-			(at 246.38 170.18 180)
+			(at 246.38 193.04 180)
 			(uuid "852f157c-339d-4aa3-ae4c-0b62b77d6be5")
 			(effects
 				(font
@@ -30807,7 +31921,7 @@
 				(justify right)
 			)
 		)
-		(pin "100M_SYSCLK2" bidirectional
+		(pin "100M_SYSCLK2_P" bidirectional
 			(at 316.23 146.05 0)
 			(uuid "c1fa21b5-9743-4cc7-bc46-b76bc55acc7e")
 			(effects
@@ -30817,7 +31931,7 @@
 				(justify right)
 			)
 		)
-		(pin "~{100M_SYSCLK2}" bidirectional
+		(pin "100M_SYSCLK2_N" bidirectional
 			(at 316.23 148.59 0)
 			(uuid "0181e08b-bf0a-4192-9a73-f9c3fe775ba7")
 			(effects
@@ -31170,6 +32284,116 @@
 		(pin "U22_HBDO[7..0]" output
 			(at 246.38 176.53 180)
 			(uuid "e8d86e74-6e63-4331-8ac6-7e97fbf497fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "U21_FPGA[7..0]" bidirectional
+			(at 246.38 146.05 180)
+			(uuid "108e19b5-4c7d-4a23-9f67-b58b37c95823")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "U22_FPGA[7..0]" bidirectional
+			(at 246.38 148.59 180)
+			(uuid "24aac180-dd92-43cf-a742-d4ba13fd8efc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IDB_CLK" output
+			(at 246.38 151.13 180)
+			(uuid "01e0ec40-cc0f-4324-85a3-856a0be9f043")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FPGA_ASIC_XC1" bidirectional
+			(at 246.38 153.67 180)
+			(uuid "ea44093c-e3aa-4b24-8de7-18f62fa1e501")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FPGA_ASIC_XC2" bidirectional
+			(at 246.38 156.21 180)
+			(uuid "fb0cab08-2440-4031-b23b-818f6e243e20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FA_UNK1" bidirectional
+			(at 246.38 158.75 180)
+			(uuid "dc2c9b42-4792-45db-86e8-247462aa4e46")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "U21_SYSCLK_N" output
+			(at 246.38 161.29 180)
+			(uuid "fafd37be-5945-4f19-8be5-6cd4fe0682b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "U21_SYSCLK_P" output
+			(at 246.38 163.83 180)
+			(uuid "d6c96652-07b7-4e60-8f9b-d7b394af86fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "U22_SYSCLK_N" output
+			(at 246.38 166.37 180)
+			(uuid "fe8a496a-214e-4011-9e6e-789ab2b37c45")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "U22_SYSCLK_P" output
+			(at 246.38 168.91 180)
+			(uuid "9655c44b-7aa1-4daa-983a-4a6822741415")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{DAC_WR}" output
+			(at 299.72 198.12 270)
+			(uuid "60164eef-9260-4ec6-b6a2-35eff8aed231")
 			(effects
 				(font
 					(size 1.27 1.27)

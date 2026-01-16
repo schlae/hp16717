@@ -22516,7 +22516,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+		(property "Footprint" "hp16717:HP_SOT-143"
 			(at 386.08 269.24 0)
 			(effects
 				(font
@@ -22794,7 +22794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+		(property "Footprint" "hp16717:HP_SOT-143"
 			(at 242.57 81.28 0)
 			(effects
 				(font
@@ -23226,7 +23226,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+		(property "Footprint" "hp16717:HP_SOT-143"
 			(at 238.76 269.24 0)
 			(effects
 				(font
@@ -23575,7 +23575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+		(property "Footprint" "hp16717:HP_SOT-143"
 			(at 259.08 269.24 0)
 			(effects
 				(font
@@ -24131,7 +24131,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B"
+		(property "Footprint" "hp16717:HP_CP_EIA-3528"
 			(at 181.61 222.25 0)
 			(effects
 				(font
@@ -24689,7 +24689,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.47uF"
+		(property "Value" "4.7uF"
 			(at 198.12 223.0881 0)
 			(effects
 				(font
@@ -24698,7 +24698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B"
+		(property "Footprint" "hp16717:HP_CP_EIA-3528"
 			(at 195.58 222.25 0)
 			(effects
 				(font
@@ -26541,7 +26541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+		(property "Footprint" "hp16717:HP_SOT-143"
 			(at 365.76 269.24 0)
 			(effects
 				(font
@@ -26616,7 +26616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+		(property "Footprint" "hp16717:HP_SOT-143"
 			(at 222.25 81.28 0)
 			(effects
 				(font
@@ -26692,7 +26692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D"
+		(property "Footprint" "hp16717:HP_CP_EIA-7343"
 			(at 161.29 222.25 0)
 			(effects
 				(font
@@ -28036,7 +28036,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+		(property "Footprint" "hp16717:HP_SOT-143"
 			(at 482.6 269.24 0)
 			(effects
 				(font
@@ -28382,7 +28382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+		(property "Footprint" "hp16717:HP_SOT-143"
 			(at 502.92 269.24 0)
 			(effects
 				(font
@@ -29026,7 +29026,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+		(property "Footprint" "hp16717:HP_SOT-143"
 			(at 360.68 81.28 0)
 			(effects
 				(font
@@ -30710,7 +30710,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+		(property "Footprint" "hp16717:HP_SOT-143"
 			(at 340.36 81.28 0)
 			(effects
 				(font
@@ -31859,7 +31859,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+		(property "Footprint" "hp16717:HP_SOT-143"
 			(at 474.98 81.28 0)
 			(effects
 				(font
@@ -32720,7 +32720,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+		(property "Footprint" "hp16717:HP_SOT-143"
 			(at 454.66 81.28 0)
 			(effects
 				(font
@@ -32862,7 +32862,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Active:SOT95P230X117-3"
+		(property "Footprint" "hp16717:HP_SOT95P230X117-3"
 			(at 204.47 282.575 0)
 			(effects
 				(font
@@ -33870,7 +33870,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D"
+		(property "Footprint" "hp16717:HP_CP_EIA-7343"
 			(at 171.45 222.25 0)
 			(effects
 				(font

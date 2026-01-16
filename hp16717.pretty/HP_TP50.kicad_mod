@@ -58,7 +58,7 @@
 	(attr smd)
 	(pad "1" smd circle
 		(at 0 0)
-		(size 1.27 1.27)
+		(size 0.9906 0.9906)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "695113a1-442f-47f0-a588-8f9ce1c64f41")
 	)
