@@ -3245,78 +3245,6 @@
 				)
 			)
 			(pin unspecified line
-				(at -5.08 -40.64 0)
-				(length 5.08)
-				(name "AAA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "E14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -5.08 -43.18 0)
-				(length 5.08)
-				(name "AAA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "AE14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -5.08 -45.72 0)
-				(length 5.08)
-				(name "AAA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "AF16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -5.08 -48.26 0)
-				(length 5.08)
-				(name "AAA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "D16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
 				(at -5.08 -50.8 0)
 				(length 5.08)
 				(name "HBDO0"
@@ -7514,7 +7442,7 @@
 		(symbol "1821-3936_6_1"
 			(rectangle
 				(start 0 0)
-				(end 22.86 -114.3)
+				(end 22.86 -106.68)
 				(stroke
 					(width 0)
 					(type solid)
@@ -7964,81 +7892,9 @@
 				)
 			)
 			(pin unspecified line
-				(at -5.08 -63.5 0)
-				(length 5.08)
-				(name "NI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "C13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
 				(at -5.08 -66.04 0)
 				(length 5.08)
-				(name "NI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "C17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -5.08 -81.28 0)
-				(length 5.08)
-				(name "NI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "D13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -5.08 -83.82 0)
-				(length 5.08)
-				(name "NI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "D15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -5.08 -86.36 0)
-				(length 5.08)
-				(name "NI"
+				(name "N_BI2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8054,9 +7910,27 @@
 				)
 			)
 			(pin unspecified line
-				(at -5.08 -96.52 0)
+				(at -5.08 -68.58 0)
 				(length 5.08)
-				(name "NI"
+				(name "N_BI1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -71.12 0)
+				(length 5.08)
+				(name "N_BI3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8064,6 +7938,222 @@
 					)
 				)
 				(number "E15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -73.66 0)
+				(length 5.08)
+				(name "N_BI4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -76.2 0)
+				(length 5.08)
+				(name "N_BI5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -78.74 0)
+				(length 5.08)
+				(name "N_BI6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -81.28 0)
+				(length 5.08)
+				(name "N_REFH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -83.82 0)
+				(length 5.08)
+				(name "N_REFL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -88.9 0)
+				(length 5.08)
+				(name "NIOR"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -91.44 0)
+				(length 5.08)
+				(name "NIOR"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -93.98 0)
+				(length 5.08)
+				(name "NIOR"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -96.52 0)
+				(length 5.08)
+				(name "NIOR"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -99.06 0)
+				(length 5.08)
+				(name "NIOR"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -101.6 0)
+				(length 5.08)
+				(name "NIOR"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -104.14 0)
+				(length 5.08)
+				(name "NIOR_VREF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P25"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8504,81 +8594,9 @@
 				)
 			)
 			(pin unspecified line
-				(at 27.94 -63.5 180)
-				(length 5.08)
-				(name "TrmPr3p"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "AF13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
 				(at 27.94 -66.04 180)
 				(length 5.08)
-				(name "TrmPr3n"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "AG13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 27.94 -68.58 180)
-				(length 5.08)
-				(name "TrmPr1p"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "AE15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 27.94 -71.12 180)
-				(length 5.08)
-				(name "TrmPr1n"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "AF15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 27.94 -73.66 180)
-				(length 5.08)
-				(name "TrmPr2p"
+				(name "S_BI11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8594,9 +8612,9 @@
 				)
 			)
 			(pin unspecified line
-				(at 27.94 -76.2 180)
+				(at 27.94 -68.58 180)
 				(length 5.08)
-				(name "TrmPr2n"
+				(name "S_BI12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8612,16 +8630,70 @@
 				)
 			)
 			(pin unspecified line
-				(at 27.94 -78.74 180)
+				(at 27.94 -71.12 180)
 				(length 5.08)
-				(name "NIOR"
+				(name "S_BI10"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "N26"
+				(number "AE15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 27.94 -73.66 180)
+				(length 5.08)
+				(name "S_BI9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AF15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 27.94 -76.2 180)
+				(length 5.08)
+				(name "S_BI8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AG13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 27.94 -78.74 180)
+				(length 5.08)
+				(name "S_BI7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AF13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8632,14 +8704,14 @@
 			(pin unspecified line
 				(at 27.94 -81.28 180)
 				(length 5.08)
-				(name "NIOR"
+				(name "S_REFH"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "N27"
+				(number "AE14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8650,32 +8722,14 @@
 			(pin unspecified line
 				(at 27.94 -83.82 180)
 				(length 5.08)
-				(name "NIOR_VREF"
+				(name "S_REFL"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "P25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 27.94 -86.36 180)
-				(length 5.08)
-				(name "NIOR"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P26"
+				(number "AF16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8685,42 +8739,6 @@
 			)
 			(pin unspecified line
 				(at 27.94 -88.9 180)
-				(length 5.08)
-				(name "NIOR"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P27"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 27.94 -91.44 180)
-				(length 5.08)
-				(name "NIOR"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P28"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 27.94 -93.98 180)
 				(length 5.08)
 				(name "SIOR"
 					(effects
@@ -8738,7 +8756,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 27.94 -96.52 180)
+				(at 27.94 -91.44 180)
 				(length 5.08)
 				(name "SIOR"
 					(effects
@@ -8756,43 +8774,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 27.94 -99.06 180)
-				(length 5.08)
-				(name "NIOR"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "R27"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 27.94 -101.6 180)
-				(length 5.08)
-				(name "SIOR_VREF"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "T26"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 27.94 -104.14 180)
+				(at 27.94 -93.98 180)
 				(length 5.08)
 				(name "SIOR"
 					(effects
@@ -8801,7 +8783,7 @@
 						)
 					)
 				)
-				(number "T27"
+				(number "U27"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8810,25 +8792,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 27.94 -106.68 180)
-				(length 5.08)
-				(name "SIOR"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "T28"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 27.94 -109.22 180)
+				(at 27.94 -96.52 180)
 				(length 5.08)
 				(name "SIOR"
 					(effects
@@ -8846,7 +8810,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 27.94 -111.76 180)
+				(at 27.94 -99.06 180)
 				(length 5.08)
 				(name "SIOR"
 					(effects
@@ -8855,7 +8819,43 @@
 						)
 					)
 				)
-				(number "U27"
+				(number "T28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 27.94 -101.6 180)
+				(length 5.08)
+				(name "SIOR"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "T27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 27.94 -104.14 180)
+				(length 5.08)
+				(name "SIOR_VREF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "T26"
 					(effects
 						(font
 							(size 1.27 1.27)

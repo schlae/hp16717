@@ -4728,6 +4728,16 @@
 		)
 		(uuid "18dc1254-2eec-4d7a-8e9a-4ddc2ff34aa5")
 	)
+	(text "2 volts"
+		(exclude_from_sim no)
+		(at 303.276 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1f0cfb88-9097-4cef-8e6f-15e7cffdabb3")
+	)
 	(text "U21 U26"
 		(exclude_from_sim no)
 		(at 440.69 109.728 0)
@@ -4827,6 +4837,16 @@
 			)
 		)
 		(uuid "8e9cd667-44e0-4ab7-b9f6-f3bcbaf152de")
+	)
+	(text "2 volts"
+		(exclude_from_sim no)
+		(at 321.056 310.896 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8ed3e224-369b-4dbc-b912-1083ab5e01c1")
 	)
 	(text "U22 R26"
 		(exclude_from_sim no)
@@ -15352,7 +15372,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 308.61) (xy 323.85 308.61)
+			(xy 313.69 308.61) (xy 327.66 308.61)
 		)
 		(stroke
 			(width 0)
@@ -16532,7 +16552,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 120.65) (xy 307.34 120.65)
+			(xy 297.18 120.65) (xy 309.88 120.65)
 		)
 		(stroke
 			(width 0)
@@ -20990,8 +21010,8 @@
 		)
 		(uuid "a542fcc1-6403-4166-b27f-8e5cd814c2a0")
 	)
-	(label "VBB_SI"
-		(at 323.85 308.61 180)
+	(label "U21_VBB_BI"
+		(at 327.66 308.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21690,8 +21710,8 @@
 		)
 		(uuid "e99a307f-54dd-434f-a336-dcad3f40e6cb")
 	)
-	(label "VBB_SI"
-		(at 307.34 120.65 180)
+	(label "U22_VBB_BI"
+		(at 309.88 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21933,6 +21953,17 @@
 		)
 		(uuid "64ec916a-7cf5-4117-83ba-0c99634ba99b")
 	)
+	(hierarchical_label "U21_VBB_BI"
+		(shape output)
+		(at 327.66 308.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98ab6713-3522-4641-889f-931f7745d9cf")
+	)
 	(hierarchical_label "BI[1..6]"
 		(shape input)
 		(at 26.67 283.21 180)
@@ -21943,6 +21974,17 @@
 			(justify right)
 		)
 		(uuid "a0d48425-e6d0-4ecf-b7a8-24303fb6ad7f")
+	)
+	(hierarchical_label "U22_VBB_BI"
+		(shape output)
+		(at 309.88 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac2e22a4-9c3c-4c9d-bd5d-dbe76f3f2021")
 	)
 	(hierarchical_label "U21_BI[1..12]"
 		(shape output)
