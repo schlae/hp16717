@@ -6724,6 +6724,16 @@
 		)
 		(uuid "1a3dc135-7202-4bb6-8360-a9b92fe91821")
 	)
+	(wire
+		(pts
+			(xy 120.65 326.39) (xy 129.54 326.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a85f638-26dc-4e5a-a385-f9a433219508")
+	)
 	(bus
 		(pts
 			(xy 93.98 113.03) (xy 93.98 107.95)
@@ -7946,6 +7956,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 328.93) (xy 129.54 328.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aecb08c-845c-4b1e-9208-6e1e1aba1062")
+	)
+	(wire
+		(pts
 			(xy 419.1 262.89) (xy 419.1 265.43)
 		)
 		(stroke
@@ -9026,7 +9046,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 328.93) (xy 120.65 341.63)
+			(xy 120.65 326.39) (xy 120.65 341.63)
 		)
 		(stroke
 			(width 0)
@@ -12316,16 +12336,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 326.39) (xy 121.92 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab9d7462-230e-4601-b791-a2c45b4ae1bf")
-	)
-	(wire
-		(pts
 			(xy 57.15 246.38) (xy 57.15 254)
 		)
 		(stroke
@@ -12896,7 +12906,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 326.39) (xy 121.92 339.09)
+			(xy 121.92 328.93) (xy 121.92 339.09)
 		)
 		(stroke
 			(width 0)
@@ -14636,16 +14646,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 328.93) (xy 120.65 328.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef200ad5-728b-400d-9cce-ed9270f6a0fe")
-	)
-	(wire
-		(pts
 			(xy 453.39 231.14) (xy 453.39 229.87)
 		)
 		(stroke
@@ -15764,6 +15764,16 @@
 		)
 		(uuid "54a8c792-5a5a-4703-84e6-dba2da9b52c4")
 	)
+	(label "TZCLK1_N"
+		(at 549.91 228.6 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5537c001-5318-41cd-825b-3b24940a8640")
+	)
 	(label "P1_D14"
 		(at 80.01 125.73 0)
 		(effects
@@ -15783,6 +15793,16 @@
 			(justify right bottom)
 		)
 		(uuid "55784380-68d6-40b1-ba85-d9efd05713de")
+	)
+	(label "TZCLKI_P"
+		(at 377.19 229.87 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "55944a60-e0fb-4330-bf10-f08dd38c256f")
 	)
 	(label "P4_D15"
 		(at 48.26 287.02 0)
@@ -15944,6 +15964,16 @@
 		)
 		(uuid "6736b75a-af15-4bf4-bcf3-db9f10c5d316")
 	)
+	(label "TZCLK1_P"
+		(at 563.88 219.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6aff996f-c15a-4a20-8720-82167ee0a983")
+	)
 	(label "TZCLKO1_P"
 		(at 579.12 129.54 180)
 		(effects
@@ -16094,6 +16124,26 @@
 		)
 		(uuid "8de4ae07-b069-49e0-b563-d3c6225ae934")
 	)
+	(label "TZCLK4_N"
+		(at 448.31 229.87 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f26e20b-06dc-444c-bf6c-34fb4c23f102")
+	)
+	(label "TZCLKI_N"
+		(at 401.32 228.6 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f89a36e-aae5-4c74-a09c-7e33ad739b92")
+	)
 	(label "TZCLKO2_P"
 		(at 257.81 257.81 180)
 		(effects
@@ -16163,6 +16213,16 @@
 			(justify left bottom)
 		)
 		(uuid "9e305ac7-7c6e-4d0c-8dce-660c33717fc6")
+	)
+	(label "TZCLK3_N"
+		(at 488.95 228.6 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e9341b2-3be0-4608-bccd-3ee5589475f8")
 	)
 	(label "TZCLKO9_N"
 		(at 579.12 172.72 180)
@@ -16254,6 +16314,16 @@
 		)
 		(uuid "be0ced53-0306-4a24-bf0d-3ae6e76552eb")
 	)
+	(label "TZCLK3_P"
+		(at 501.65 219.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c08713fb-8db4-4f68-8a43-a15572f89a67")
+	)
 	(label "TZCLKO8_N"
 		(at 257.81 290.83 180)
 		(effects
@@ -16324,6 +16394,16 @@
 		)
 		(uuid "d02e7c4d-665b-418a-acec-5cece2653d19")
 	)
+	(label "TZCLK2_N"
+		(at 516.89 228.6 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4f3d136-5243-4dc6-afa8-fec7212919d6")
+	)
 	(label "P1_D2"
 		(at 80.01 80.01 0)
 		(effects
@@ -16353,6 +16433,16 @@
 			(justify left bottom)
 		)
 		(uuid "dc6b50c9-4880-45df-8060-61493680b42f")
+	)
+	(label "TZCLK5_N"
+		(at 416.56 229.87 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ddbc61e4-857a-454a-875b-663f2635d294")
 	)
 	(label "P2_D10"
 		(at 48.26 110.49 0)
@@ -16424,6 +16514,16 @@
 		)
 		(uuid "e4743567-2bab-4b96-a342-939028adb008")
 	)
+	(label "TZCLK2_P"
+		(at 532.13 219.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9d63c20-aeb9-4e8d-b8b0-a5a97ce62caf")
+	)
 	(label "P3_CLK"
 		(at 80.01 297.18 0)
 		(effects
@@ -16443,6 +16543,16 @@
 			(justify left bottom)
 		)
 		(uuid "f0bbe54a-0c15-42b5-91e2-7274564b619f")
+	)
+	(label "TZCLK4_P"
+		(at 466.09 219.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1ab1ab9-db14-450f-97c5-cab2bff28460")
 	)
 	(label "P4_D12"
 		(at 48.26 274.32 0)
@@ -16493,6 +16603,16 @@
 			(justify left bottom)
 		)
 		(uuid "f639e397-d528-4179-a7b3-de11b8353dd1")
+	)
+	(label "TZCLK5_P"
+		(at 433.07 219.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff4b051a-dd56-439b-8bab-495505860f2f")
 	)
 	(symbol
 		(lib_id "power:+3V3")

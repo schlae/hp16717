@@ -4436,14 +4436,14 @@
 				(pin unspecified line
 					(at -5.08 -63.5 0)
 					(length 5.08)
-					(name "HBDO6"
+					(name "HBDO5"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "AG24"
+					(number "AF22"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4454,14 +4454,14 @@
 				(pin unspecified line
 					(at -5.08 -66.04 0)
 					(length 5.08)
-					(name "HBDO5"
+					(name "HBDO6"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "AF22"
+					(number "AG24"
 						(effects
 							(font
 								(size 1.27 1.27)

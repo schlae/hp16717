@@ -3505,7 +3505,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:MMBT3904"
+		(symbol "Transistor_BJT:MMBT3906"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -3522,7 +3522,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "MMBT3904"
+			(property "Value" "MMBT3906"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -3542,7 +3542,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3906-d.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3552,7 +3552,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+			(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3561,7 +3561,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "NPN Transistor"
+			(property "ki_keywords" "PNP Transistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3579,7 +3579,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MMBT3904_0_1"
+			(symbol "MMBT3906_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
@@ -3604,19 +3604,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MMBT3904_1_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -3641,9 +3628,20 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -3653,6 +3651,8 @@
 						(type outline)
 					)
 				)
+			)
+			(symbol "MMBT3906_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -10522,6 +10522,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 257.81) (xy 201.93 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bbd852c-08a8-4cfc-bb6b-b93a2324b51e")
+	)
+	(wire
+		(pts
 			(xy 34.29 267.97) (xy 45.72 267.97)
 		)
 		(stroke
@@ -11369,6 +11379,16 @@
 			(type default)
 		)
 		(uuid "4ee29115-0029-4f4c-8eaf-8140be4a8ecf")
+	)
+	(wire
+		(pts
+			(xy 201.93 270.51) (xy 201.93 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ee2fdb5-ce43-4db7-a10c-f4d82b0d7568")
 	)
 	(wire
 		(pts
@@ -12392,16 +12412,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 271.78) (xy 201.93 275.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64a17267-8c64-4f1b-9c4c-fca2ea8de4d1")
-	)
-	(wire
-		(pts
 			(xy 242.57 90.17) (xy 242.57 97.79)
 		)
 		(stroke
@@ -12869,6 +12879,16 @@
 			(type default)
 		)
 		(uuid "6cf2fc68-405f-4566-add7-f2f732eac365")
+	)
+	(wire
+		(pts
+			(xy 191.77 265.43) (xy 194.31 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d500db9-2d0f-461c-823b-6898281900f0")
 	)
 	(wire
 		(pts
@@ -19560,7 +19580,7 @@
 		)
 		(uuid "2030d2fb-cf4c-47ce-bfd4-3e77e0dbef41")
 	)
-	(label "U21_BI18"
+	(label "U21_BI8"
 		(at 553.72 109.22 180)
 		(effects
 			(font
@@ -22010,7 +22030,7 @@
 	)
 	(hierarchical_label "TERM_EN"
 		(shape input)
-		(at 189.23 280.67 180)
+		(at 186.69 265.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23667,7 +23687,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 191.77 280.67 90)
+		(at 189.23 265.43 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23676,7 +23696,7 @@
 		(dnp no)
 		(uuid "1a1d4c9b-ada2-43be-b369-b8b765e61d93")
 		(property "Reference" "R479"
-			(at 189.23 275.59 90)
+			(at 186.69 260.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23685,7 +23705,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 189.738 277.876 90)
+			(at 187.198 262.636 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23694,7 +23714,7 @@
 			)
 		)
 		(property "Footprint" "hp16717:HP_0805"
-			(at 191.77 280.67 0)
+			(at 189.23 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23703,7 +23723,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 280.67 0)
+			(at 189.23 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23712,7 +23732,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 191.77 280.67 0)
+			(at 189.23 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26207,6 +26227,82 @@
 			(project "hp16717"
 				(path "/173036db-20dd-4729-b214-c668df2e6caa/d1d87433-66d8-4a4a-b366-85c8d9f4431f"
 					(reference "#PWR0712")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT3906")
+		(at 199.39 265.43 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4aba77b6-e47c-48e8-9cce-44c5b4043d2a")
+		(property "Reference" "Q1"
+			(at 204.47 266.7001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT3906"
+			(at 204.47 264.1601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "hp16717:HP_SOT95P230X117-3"
+			(at 204.47 263.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3906-d.pdf"
+			(at 199.39 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"
+			(at 199.39 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6c567e6-4626-4b53-9c5a-597368152540")
+		)
+		(pin "2"
+			(uuid "333ef6b0-ec8b-4356-8047-7ba9829e0349")
+		)
+		(pin "3"
+			(uuid "beada01a-4e58-4fff-9080-450d195db127")
+		)
+		(instances
+			(project ""
+				(path "/173036db-20dd-4729-b214-c668df2e6caa/d1d87433-66d8-4a4a-b366-85c8d9f4431f"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -29914,73 +30010,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 201.93 285.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ef42fe0-89db-4727-8342-06f84029c3c6")
-		(property "Reference" "#PWR0728"
-			(at 201.93 292.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 201.93 290.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.93 285.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 285.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.93 285.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8836985d-8ff2-4434-a292-3936cdc497e6")
-		)
-		(instances
-			(project "hp16717"
-				(path "/173036db-20dd-4729-b214-c668df2e6caa/d1d87433-66d8-4a4a-b366-85c8d9f4431f"
-					(reference "#PWR0728")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 547.37 271.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -32878,55 +32907,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MMBT3904")
-		(at 199.39 280.67 0)
+		(lib_id "power:+3V3")
+		(at 201.93 257.81 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "dd4b9beb-67be-4bfb-adfa-8e658e637802")
-		(property "Reference" "Q1"
-			(at 204.47 281.9401 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT3904"
-			(at 204.47 279.4001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "hp16717:HP_SOT95P230X117-3"
-			(at 204.47 282.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
-			(at 199.39 280.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 199.39 280.67 0)
+		(fields_autoplaced yes)
+		(uuid "da349994-990d-403c-9108-62843016f47e")
+		(property "Reference" "#PWR0728"
+			(at 201.93 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32934,19 +32926,48 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "e2f5bece-5468-4bc1-ad5a-e7f3f43a6150")
+		(property "Value" "+3V3"
+			(at 201.93 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 201.93 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "f75dc25f-40a5-45f8-9b8b-90b4f4251ae3")
-		)
-		(pin "2"
-			(uuid "37000e21-1ed7-4073-a850-f1875be5ca30")
+			(uuid "153f95ad-4253-41b5-8726-8f0a8fd6f29d")
 		)
 		(instances
 			(project "hp16717"
 				(path "/173036db-20dd-4729-b214-c668df2e6caa/d1d87433-66d8-4a4a-b366-85c8d9f4431f"
-					(reference "Q1")
+					(reference "#PWR0728")
 					(unit 1)
 				)
 			)
