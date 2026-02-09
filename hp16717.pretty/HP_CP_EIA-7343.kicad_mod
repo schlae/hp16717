@@ -1,0 +1,193 @@
+(footprint "HP_CP_EIA-7343"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Tantalum Capacitor SMD Kemet-D (7343-31 Metric), IPC-7352 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
+	(tags "capacitor tantalum")
+	(property "Reference" "REF**"
+		(at 0 -3.1 0)
+		(layer "F.SilkS")
+		(uuid "69a8e900-3402-4dbf-9e47-9ed281aad924")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HP_CP_EIA-7343"
+		(at 0 3.1 0)
+		(layer "F.Fab")
+		(uuid "afb4e7f5-7d5f-4f64-b447-9d923022a6c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab71326e-4e6e-408e-9bff-4860af7cbac2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d635d91f-0d9a-410e-9780-50c08996d94a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.41 -2.4)
+		(end 4.41 -2.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f2af6402-ae13-489d-a5ef-a5c6196c3817")
+	)
+	(fp_line
+		(start -4.41 2.4)
+		(end -4.41 -2.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5ff80c05-8699-43a3-b9e2-f783950085a9")
+	)
+	(fp_line
+		(start 4.41 -2.4)
+		(end 4.41 2.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "de2917c1-0805-420a-aa26-9f977e28d447")
+	)
+	(fp_line
+		(start 4.41 2.4)
+		(end -4.41 2.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a7f86d05-a465-4daf-8019-5637a5a16062")
+	)
+	(fp_line
+		(start -3.65 -1.15)
+		(end -3.65 2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0f172a53-4924-47fc-aecd-68bf0e48f591")
+	)
+	(fp_line
+		(start -3.65 2.15)
+		(end 3.65 2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cd9925be-4b3d-4e33-ab63-43f456d49be5")
+	)
+	(fp_line
+		(start -2.65 -2.15)
+		(end -3.65 -1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1845502e-4081-4b6c-8102-42ffe9eb29c5")
+	)
+	(fp_line
+		(start 3.65 -2.15)
+		(end -2.65 -2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0c11afa6-c3ca-441c-89b4-a8c0e6f40c54")
+	)
+	(fp_line
+		(start 3.65 2.15)
+		(end 3.65 -2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bc9171e4-a633-46ac-8ed5-1c6b48dec6ed")
+	)
+	(fp_text user "+"
+		(at -3.937 3.048 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "248d0ef4-8f86-4813-a7ae-de8308ba2a9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "54fbacd1-65c4-4f03-8efb-cf6f28c6aa39")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.048 0)
+		(size 2.286 2.54)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3c74288b-0724-4801-9184-fed1d19a0658")
+	)
+	(pad "2" smd rect
+		(at 3.048 0)
+		(size 2.286 2.54)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ac27452e-b9bd-4494-b350-66086bc33d53")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-7343-31_Kemet-D.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

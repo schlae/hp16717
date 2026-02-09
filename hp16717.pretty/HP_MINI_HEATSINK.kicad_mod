@@ -1,0 +1,82 @@
+(footprint "HP_MINI_HEATSINK"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "415e28b4-63f2-4b2c-b323-9221a3e11d56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "HP_MINI_HEATSINK"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7adb09fb-73e5-4de9-a88d-8531dabd05c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d568062d-6ca7-4351-9368-be5989ed50cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b666984c-c39a-44f0-84ad-ec7dfbbea030")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4f0f8934-5afc-44a1-a550-b98e896cf3b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -7.366)
+		(size 16.129 1.4732)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "42da0e02-d767-4b39-ae5d-28618cf1954b")
+	)
+	(pad "1" smd rect
+		(at 0 7.366)
+		(size 16.129 1.4732)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "627bd7f7-e9c5-4e3a-b020-2afb3b263ccd")
+	)
+	(embedded_fonts no)
+)

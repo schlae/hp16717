@@ -1,0 +1,216 @@
+(footprint "HP_Oscillator_SMD_4Pin_14.0x8.7mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD Crystal Oscillator Seiko Epson SG-8002JA https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-8002DC, 14.0x8.7mm^2 package")
+	(tags "SMD SMT crystal oscillator")
+	(property "Reference" "REF**"
+		(at 0 -6.9 0)
+		(layer "F.SilkS")
+		(uuid "da838f97-70d8-4e86-a613-6216e07bf26b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Value" "HP_Oscillator_SMD_4Pin_14.0x8.7mm"
+		(at 0 6.9 0)
+		(layer "F.Fab")
+		(uuid "eb07ef7b-1d5d-4689-9438-e647dd95f65f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f994b9ca-0fc5-48d8-b374-28f2daf3dada")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2e347eb-ed80-4c35-a94e-1b07646f5f85")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -2.54 6.223)
+		(end -1.955 6.223)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "a7af891d-0fee-4d76-99c3-53234b4e2380")
+	)
+	(fp_line
+		(start -7.3 -6.2)
+		(end -7.3 6.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c86a51a2-08fb-41a5-970d-acb557aa1e8f")
+	)
+	(fp_line
+		(start -7.3 6.2)
+		(end 7.3 6.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4bcfc177-bbd6-4045-8b5e-928bd0bfb001")
+	)
+	(fp_line
+		(start 7.3 -6.2)
+		(end -7.3 -6.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1768d9bc-226d-43ff-b7dd-711dba5a69ff")
+	)
+	(fp_line
+		(start 7.3 6.2)
+		(end 7.3 -6.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "87edffa9-3172-40ff-978f-c064d62a4d80")
+	)
+	(fp_line
+		(start -7 -4.33)
+		(end 7 -4.33)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fe2bb51b-adf0-46fe-a7f3-8a4e1904294c")
+	)
+	(fp_line
+		(start -7 -0.5)
+		(end -7 -4.33)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8ae82b86-41ec-4d8f-8c57-939685705d74")
+	)
+	(fp_line
+		(start -7 4.33)
+		(end -7 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c4245b2a-b7b2-4456-a71a-47623a47cf85")
+	)
+	(fp_line
+		(start 7 -4.33)
+		(end 7 4.33)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "822d9a07-3a6b-471d-b7a1-d4b36729ca20")
+	)
+	(fp_line
+		(start 7 4.33)
+		(end -7 4.33)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c54c6ae4-a0b6-4bfd-bb8f-7af520e4a1c4")
+	)
+	(fp_arc
+		(start -7 -0.5)
+		(mid -6.5 0)
+		(end -7 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "252bc802-de13-416f-839a-0460017981f0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "667d4dd6-5ea2-44e2-a8f1-39e4df5da6f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.54 3.81)
+		(size 1.27 3.048)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "43bb880c-0869-499e-bb21-82e802c1fdf7")
+	)
+	(pad "2" smd rect
+		(at 2.54 3.81)
+		(size 1.27 3.048)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6f1be39d-814e-4d67-a003-baf528cde047")
+	)
+	(pad "3" smd rect
+		(at 2.54 -3.81)
+		(size 1.27 3.048)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "09186646-4c20-4c93-a982-8624b7a6483b")
+	)
+	(pad "4" smd rect
+		(at -2.54 -3.81)
+		(size 1.27 3.048)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "61d66ecc-fd4d-4e38-b75e-51a5a05833a3")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_SeikoEpson_SG8002JA-4Pin_14.0x8.7mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
