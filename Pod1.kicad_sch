@@ -3008,6 +3008,46 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "cmpTest:\n+10V RAMP TO -10V IN 25us."
+		(exclude_from_sim no)
+		(at 62.992 56.388 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "071840b7-79bd-4ce2-b9c7-f2e702654dbb")
+	)
+	(text "2.23V"
+		(exclude_from_sim no)
+		(at 285.75 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "235cc66f-c2ad-4029-b1d5-bdcf54dbf1fa")
+	)
+	(text "2.15V"
+		(exclude_from_sim no)
+		(at 211.074 60.198 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4cff9e63-e948-4d71-85cb-85f8818cb1c6")
+	)
+	(text "cmpTest: BURSTS\n24.7MHz (-1.8V to -1.1V)\n50MHz (-2V to -0.8V)"
+		(exclude_from_sim no)
+		(at 49.53 264.414 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5af042fa-342e-4b1c-8aec-b16fb3a12efa")
+	)
 	(text "to U21 pin Y25"
 		(exclude_from_sim no)
 		(at 289.306 51.562 0)
@@ -3017,6 +3057,16 @@
 			)
 		)
 		(uuid "5f8f674a-6061-4255-b23e-74188b915ade")
+	)
+	(text "1.3V"
+		(exclude_from_sim no)
+		(at 282.956 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "91e00d63-7552-4230-9735-345357897a2e")
 	)
 	(text "POD 1"
 		(exclude_from_sim no)
@@ -3028,9 +3078,19 @@
 		)
 		(uuid "af259a42-f1e6-4c6b-8446-d7ef4e983af6")
 	)
-	(text "to acq chip"
+	(text "2.15V"
 		(exclude_from_sim no)
-		(at 278.384 78.486 0)
+		(at 264.414 56.134 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b6e19dbb-b7d7-41b7-a056-f0d16aec4745")
+	)
+	(text "SWING IS 1.7V TO 2.5V (ACQ ASIC)\nSWING IS 1V TO 1.7V (TIMING ZOOM)"
+		(exclude_from_sim no)
+		(at 297.942 94.488 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13068,7 +13128,7 @@
 			)
 		)
 		(property "Value" "?"
-			(at 267.716 45.974 90)
+			(at 267.716 51.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)

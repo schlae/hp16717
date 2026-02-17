@@ -4826,6 +4826,16 @@
 		)
 		(uuid "0d13faef-da86-494f-b6e6-0f37db7fb6e1")
 	)
+	(text "BI1-BI12 SIGNALS SEEM TO FLOAT\nAT 1.6V, BUT CAN BE DRIVEN TO 0V\nOR 2.7V.\nMAY USE BOTH COMMON MODE AND DIFF\nMODE SIGNALING"
+		(exclude_from_sim no)
+		(at 227.838 122.428 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0f4f33d1-1116-4633-a679-605db558c77e")
+	)
 	(text "U22 R25"
 		(exclude_from_sim no)
 		(at 560.07 102.87 0)
@@ -4836,7 +4846,7 @@
 		)
 		(uuid "18dc1254-2eec-4d7a-8e9a-4ddc2ff34aa5")
 	)
-	(text "2 volts"
+	(text "2.03V"
 		(exclude_from_sim no)
 		(at 303.276 123.19 0)
 		(effects
@@ -4855,6 +4865,16 @@
 			)
 		)
 		(uuid "1fd9fcd4-4cb1-4867-a427-88ecbf278e37")
+	)
+	(text "2.7V / 1.7V / 0V"
+		(exclude_from_sim no)
+		(at 236.22 106.934 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "394a0edf-6cf9-4214-98e4-17155a32cc74")
 	)
 	(text "U21 T27"
 		(exclude_from_sim no)
@@ -4966,6 +4986,16 @@
 		)
 		(uuid "98e9494b-feeb-4c5b-a6a3-85705d847a89")
 	)
+	(text "2.7V / 1V"
+		(exclude_from_sim no)
+		(at 227.33 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9fac5c94-a1ec-4da4-8621-ec3d216ddc60")
+	)
 	(text "U22 U26"
 		(exclude_from_sim no)
 		(at 441.452 112.776 0)
@@ -4985,6 +5015,16 @@
 			)
 		)
 		(uuid "a67292a7-ab06-455b-b108-47e21512876c")
+	)
+	(text "SI/NI SIGNAL LOGIC LEVELS\nARE 1.5V/0V"
+		(exclude_from_sim no)
+		(at 116.332 174.244 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a9af363b-7483-48db-9927-2e66ab84cf44")
 	)
 	(text "U21 N27"
 		(exclude_from_sim no)

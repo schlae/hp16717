@@ -10435,6 +10435,16 @@
 		)
 		(uuid "02b5d051-0a26-400c-9b26-1e9bf16620c5")
 	)
+	(text "1V"
+		(exclude_from_sim no)
+		(at 478.536 302.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "05f0c7fa-9db4-4cd9-99b1-7ea3f683d68b")
+	)
 	(text "T28"
 		(exclude_from_sim no)
 		(at 533.4 318.008 0)
@@ -10444,6 +10454,26 @@
 			)
 		)
 		(uuid "0af16c2f-be61-48c0-9f1c-f90d05860253")
+	)
+	(text "500mV"
+		(exclude_from_sim no)
+		(at 573.532 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "10f66047-3fcd-40bc-baef-e28bce71deb2")
+	)
+	(text "2.03V"
+		(exclude_from_sim no)
+		(at 489.204 330.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1c0c4e89-c93d-43ae-a29d-e3b09f5f4f9b")
 	)
 	(text "R25"
 		(exclude_from_sim no)
@@ -10455,7 +10485,7 @@
 		)
 		(uuid "1d758c62-f8ae-404c-9574-49b74e33a2f7")
 	)
-	(text "2 volts"
+	(text "2.03V"
 		(exclude_from_sim no)
 		(at 498.856 149.352 0)
 		(effects
@@ -10535,6 +10565,16 @@
 		)
 		(uuid "4c13cc6b-db9f-4285-a934-1d518a40d351")
 	)
+	(text "Both at 3.36V"
+		(exclude_from_sim no)
+		(at 262.382 252.984 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4e2a63a7-3617-41f5-8572-d0200d2d30dd")
+	)
 	(text "U27"
 		(exclude_from_sim no)
 		(at 533.4 312.674 0)
@@ -10584,6 +10624,16 @@
 			)
 		)
 		(uuid "6a324478-40e9-4f9b-897d-d66a7a3ecb40")
+	)
+	(text "1.4V"
+		(exclude_from_sim no)
+		(at 184.404 308.864 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6eea82e7-7414-4620-ae38-f9aad61067b2")
 	)
 	(text "P27"
 		(exclude_from_sim no)
@@ -10635,16 +10685,6 @@
 		)
 		(uuid "827b415f-2fd1-4ee5-a1cc-a19c2252c387")
 	)
-	(text "2 volts"
-		(exclude_from_sim no)
-		(at 513.334 329.946 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "87ab02f2-30f2-4051-b134-29502e51beda")
-	)
 	(text "to U21 AE23, U22 AF24"
 		(exclude_from_sim no)
 		(at 192.278 206.502 0)
@@ -10694,6 +10734,16 @@
 			)
 		)
 		(uuid "a8031ad2-593b-408c-8d8b-264e97c94169")
+	)
+	(text "1V"
+		(exclude_from_sim no)
+		(at 547.624 122.682 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ac700055-cb25-4eea-82b5-23da754db37b")
 	)
 	(text "P27"
 		(exclude_from_sim no)
@@ -10745,6 +10795,16 @@
 		)
 		(uuid "e06a8776-eac4-4e97-bb4f-5a9d948115fb")
 	)
+	(text "500mV"
+		(exclude_from_sim no)
+		(at 451.104 293.878 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ee500bca-5bc7-4c38-95fc-d6ba905e39a4")
+	)
 	(text "T27"
 		(exclude_from_sim no)
 		(at 533.4 320.548 0)
@@ -10754,6 +10814,16 @@
 			)
 		)
 		(uuid "f90c4079-d573-4f66-ae32-9c444f1f654c")
+	)
+	(text "2.23V"
+		(exclude_from_sim no)
+		(at 30.734 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fce87433-a686-492e-a2c7-39565ec59b7f")
 	)
 	(text "P26"
 		(exclude_from_sim no)
