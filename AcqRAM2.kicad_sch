@@ -1638,6 +1638,16 @@
 		)
 		(uuid "0ab07283-8bf3-47f0-8811-0622572611e3")
 	)
+	(text "C8 VRAM 11"
+		(exclude_from_sim no)
+		(at 457.962 230.886 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "0b7934b7-f9ed-4ff3-8700-f3af3dea2de7")
+	)
 	(text "C10"
 		(exclude_from_sim no)
 		(at 259.334 325.12 0)
@@ -1798,6 +1808,16 @@
 		)
 		(uuid "27935cbf-f4dc-4307-979b-001b5b142303")
 	)
+	(text "C8 VRAM 10"
+		(exclude_from_sim no)
+		(at 456.946 331.216 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "2882f3c1-8eaf-4f27-8e28-1d830f1e3fa5")
+	)
 	(text "J2"
 		(exclude_from_sim no)
 		(at 167.386 127.508 0)
@@ -1938,6 +1958,26 @@
 		)
 		(uuid "3af9c7ce-035f-4dd2-afa6-b4d5492c85c0")
 	)
+	(text "C8 VRAM 0"
+		(exclude_from_sim no)
+		(at 384.048 57.15 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "3c0292c5-f839-4e2a-b0d8-d44b7a497ba4")
+	)
+	(text "C8 VRAM 2"
+		(exclude_from_sim no)
+		(at 383.286 330.454 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "3e3cf1d9-047b-4a5a-b4cc-4a82aa69ab63")
+	)
 	(text "D10"
 		(exclude_from_sim no)
 		(at 259.334 307.848 0)
@@ -2008,6 +2048,26 @@
 		)
 		(uuid "486fed03-1ed8-469e-81e0-255abf004ebf")
 	)
+	(text "C8 VRAM 12"
+		(exclude_from_sim no)
+		(at 311.404 57.658 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "48a9934c-73e2-4df6-8b2e-8215e780b709")
+	)
+	(text "C8 VRAM 6"
+		(exclude_from_sim no)
+		(at 237.744 327.406 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "495ae6b8-96ff-4b88-b0d0-776e5ccff1b9")
+	)
 	(text "N4"
 		(exclude_from_sim no)
 		(at 259.08 128.524 0)
@@ -2038,6 +2098,16 @@
 		)
 		(uuid "4dd4e60e-eeb7-480c-8386-40bbba74bbd1")
 	)
+	(text "C8 VRAM 5"
+		(exclude_from_sim no)
+		(at 238.252 147.574 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "4e711a86-28f0-413c-9912-5360e2077282")
+	)
 	(text "R2"
 		(exclude_from_sim no)
 		(at 167.386 145.288 0)
@@ -2067,6 +2137,16 @@
 			)
 		)
 		(uuid "53004195-399e-4272-9508-38f11fa1bcc5")
+	)
+	(text "C8 VRAM 15"
+		(exclude_from_sim no)
+		(at 311.658 232.156 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "596b9a49-0085-48b4-b6d9-b2fa4b98c1c3")
 	)
 	(text "K2"
 		(exclude_from_sim no)
@@ -2198,6 +2278,16 @@
 		)
 		(uuid "6ea7e1d1-0a27-4717-ae3e-ef4566eecdd6")
 	)
+	(text "C8 VRAM 3"
+		(exclude_from_sim no)
+		(at 383.032 230.124 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "6fa434d9-be1a-41fb-b799-a5fa46269b75")
+	)
 	(text "C7"
 		(exclude_from_sim no)
 		(at 260.35 220.726 0)
@@ -2227,6 +2317,16 @@
 			)
 		)
 		(uuid "7312ea06-a635-47cd-b2cd-7d3a2f1323c8")
+	)
+	(text "C8 VRAM 1"
+		(exclude_from_sim no)
+		(at 383.794 146.304 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "75026bc4-8f82-4ca3-892f-60a4f70eaf96")
 	)
 	(text "L2"
 		(exclude_from_sim no)
@@ -2308,6 +2408,16 @@
 		)
 		(uuid "82ea9d08-3b64-430d-9714-5c792d9ef7a9")
 	)
+	(text "C8 VRAM 4"
+		(exclude_from_sim no)
+		(at 237.49 54.102 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "84365061-3464-4d32-8857-35dc82b94e7b")
+	)
 	(text "W2"
 		(exclude_from_sim no)
 		(at 167.386 157.988 0)
@@ -2378,6 +2488,16 @@
 		)
 		(uuid "8f0c3e7a-9a39-444b-89c3-1d991144f8ff")
 	)
+	(text "C8 VRAM 8"
+		(exclude_from_sim no)
+		(at 456.946 56.896 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "8f3a50c4-051e-437d-97bc-8171ba7cb5c7")
+	)
 	(text "E5"
 		(exclude_from_sim no)
 		(at 260.35 236.474 0)
@@ -2428,6 +2548,16 @@
 		)
 		(uuid "946cd8fd-16b9-49d1-b5b2-d2fd712abab6")
 	)
+	(text "C8 VRAM 14"
+		(exclude_from_sim no)
+		(at 311.404 327.66 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "98e5fc9b-3791-4d86-9305-3000c952748a")
+	)
 	(text "C12"
 		(exclude_from_sim no)
 		(at 259.334 317.246 0)
@@ -2467,6 +2597,26 @@
 			)
 		)
 		(uuid "9dd499bb-7a6c-46d1-9418-dae0f14e0dab")
+	)
+	(text "C8 VRAM 13"
+		(exclude_from_sim no)
+		(at 311.15 147.32 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "a2300144-bead-45af-9ccb-a4faef7d1790")
+	)
+	(text "C8 VRAM 9"
+		(exclude_from_sim no)
+		(at 456.946 146.304 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "a3a4c2c4-4db3-4dc8-a3ff-0e7eee511e1f")
 	)
 	(text "AB5"
 		(exclude_from_sim no)
@@ -2558,6 +2708,16 @@
 		)
 		(uuid "be5f8e58-6098-49a9-afdd-185a61bd4a4f")
 	)
+	(text "C8 VRAM 16"
+		(exclude_from_sim no)
+		(at 144.526 152.146 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "c19641e6-aa0b-4396-b817-8a4ab0d592c5")
+	)
 	(text "R5"
 		(exclude_from_sim no)
 		(at 404.876 314.96 0)
@@ -2597,6 +2757,16 @@
 			)
 		)
 		(uuid "c5d446c2-be25-4210-a101-65b61c016922")
+	)
+	(text "C8 VRAM 7"
+		(exclude_from_sim no)
+		(at 238.252 232.41 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "c7716fb8-bcad-4cc5-80cd-09471e4a699d")
 	)
 	(text "D14"
 		(exclude_from_sim no)
